@@ -59,6 +59,15 @@
 30. **Regra nova de escrita:** as telas são escritas **para quem executa, não para quem aprova**. Gancho, texto na tela, B-roll, legenda, CTA e trava de produção têm que estar na página — o que fica na conversa não chega em quem grava.
 31. **Armadilhas 23 e 24 registradas:** artifact nasce privado e a ferramenta não compartilha (avisar sempre que publicar artifact novo); e o time não opera — escrever para quem executa.
 
+### 15/jul/2026 — Sessão 7 (outubro + a cadência dos 75 dias)
+
+32. **CADÊNCIA DEFINIDA (regra permanente):** o time trabalha com **75 dias de antecedência**. Todo **dia 15** roda-se o **mês corrente + 3** (15/jul→outubro · 15/ago→novembro · 15/set→dezembro · 15/out→janeiro). Automatizado na rotina de nuvem **`trig_01AGbqkuLVH36dSYK64uykjR`** — dia 15, 10h BRT (13h UTC), Opus 4.8, repo XSquads, conectores Composio + Gmail + Drive, aviso no Telegram. Primeira execução: **15/08/2026** (novembro).
+33. **Módulo 19 criado — [19-calendario-outubro.md](19-calendario-outubro.md)** + artifact republicado na URL fixa `1f4d52f4…` (label `out-26`).
+34. **DESCOBERTA: não existe aba de outubro.** O plano dia a dia da planilha GTM **termina em SET** — não há Out/Nov/Dez. Outubro nasceu da linha **OUT** da aba `Estratégia NACIONAL - GTM`, que é rica (Dia das Crianças 17/09-12/10 + HALLOW KLIN 14/10-05/11; foco flash carrinho/princesa; satélite **acqua kids PINs**). **Ação para o time: criar a aba Out, com coluna Formato.**
+35. **As 5 teses de outubro:** (1) o hero de presente é **sábado 10/10**, não o dia 12 — o Dia das Crianças cai numa **segunda** (78 likes vs 96 do sábado) e a compra decide no fim de semana anterior; (2) **Halloween cai num sábado (31/10)** = sábado + mascote + trend = a fórmula do 422, o maior viral do trimestre; (3) ⚠️ **"Cards da data"** do HALLOW KLIN contraria o dado (card 62 × reel 106) → 1 card no 29 e o hero em reel no 31; (4) **PINs: Radar e GTM convergiram sozinhos** — não é sugestão nova, é acelerar o que já está no plano; (5) o **FOCO do mês é LED** (flash "pisou, piscou") — 50% do foco **só existe em vídeo**, o argumento mais fácil contra a vitrine.
+36. **Mix de outubro:** 18 reels (58%) · 11 carrosséis (35%) · 2 cards (6%) · mascote **semanal** (5 eps) · tecnologia 2× · inclusão 1× · preço ancorado 4× · **hero 10 de 10** em sex/sáb.
+37. **PENDÊNCIA:** as **peças de outubro** ainda não foram montadas — o artifact `76c5225b…` segue mostrando as de agosto. Prioridade da próxima sessão: 10/10 (hero de presente + PINs), 31/10 (Halloween + mascote), 07/10 (Dra. Be) e 02/10 (Flash no escuro).
+
 ## Decisões em aberto (aguardando o time)
 
 - [ ] Aprovar o de-para FINAL (reunião com Righi/mkt) — deadline crítico: **17/07** (#CresciDeKlin)

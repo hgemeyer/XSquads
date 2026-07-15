@@ -12,6 +12,26 @@ description: >
 
 # Klin Growth — Sistema de Crescimento Instagram
 
+## Cadência — todo dia 15, o mês corrente + 3
+
+O time trabalha com **75 dias de antecedência**. Regra: **mês alvo = mês corrente + 3.**
+
+| Roda em | Planeja |
+|---|---|
+| 15/jul | Outubro |
+| 15/ago | Novembro |
+| 15/set | Dezembro |
+| 15/out | Janeiro do ano seguinte |
+
+Automatizado: rotina de nuvem **`trig_01AGbqkuLVH36dSYK64uykjR`** — todo dia 15 às 10h (13h UTC),
+Opus 4.8, repo XSquads, conectores Composio + Gmail + Drive. Avisa o Allan no Telegram ao fim.
+O Allan também pode disparar na mão: **"roda o growth de \<mês\>"**.
+
+**Cada rodada carrega o aprendizado da anterior** (bloco 3 do `fluxo-mensal.md`): a aderência
+subiu ou caiu? os likes acompanharam? o time executou o que propusemos ou ignorou? o que deu
+certo e o que deu errado? **Se a tese não se sustentar, dizer — não maquiar.** Uma tese
+refutada com dado vale mais que um placar bonito.
+
 ## Quem faz o quê (define tudo o resto)
 
 | Papel | Quem | O que precisa |
