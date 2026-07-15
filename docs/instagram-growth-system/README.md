@@ -23,6 +23,7 @@ Sistema de criação de conteúdo para o nicho **calçados infantis / maternidad
 | 11 | [11-estudo-360-gtm.md](11-estudo-360-gtm.md) | Estudo 360º: 6 meses de dados reais + análise do plano GTM (jul/ago/set) + ajustes sugeridos |
 | 12 | [12-concorrencia-nacionais.md](12-concorrencia-nacionais.md) | Concorrência direta: Bibi, Pampili e Kidy (com fontes) |
 | 13 | [13-concorrencia-premium.md](13-concorrencia-premium.md) | Benchmarks A/B: VEJA Kids, Adidas Kids e Tip Toey Joey (com fontes) |
+| 14 | [14-de-para-ajustes.md](14-de-para-ajustes.md) | De-Para: plano GTM × recomendações, dia a dia, com semáforo de prazo |
 
 ## Os 7 pilares do sistema
 
