@@ -28,12 +28,22 @@
 11. **Armadilha registrada:** classificador de mascote inflava para 100% por contar o emoji 🐾 (assinatura de marca, 25 posts). Critério estrito → 7 posts, 27%. Validar classificador por amostra antes de reportar.
 12. **Artifact atualizado na MESMA URL** (dec7f5e9…): nova seção 1 "Aderência: o que pedimos × o que já fazemos" (medidor global, placar dos 12 eixos, série mensal aderência × likes); seções antigas renumeradas 2–7; base corrigida de 228 → 229 posts; nota de metodologia no rodapé.
 
+### 15/jul/2026 — Sessão 3 (calendário de agosto)
+
+13. **Módulo 17 criado — [17-calendario-agosto.md](17-calendario-agosto.md)** + artifact visual em formato de calendário: https://claude.ai/code/artifact/1f4d52f4-1e02-4a9d-aafe-810bbd033b99
+14. **Descoberta na aba Ago:** a planilha define **tema e tipo, não formato** — só 3 dos 31 dias citam formato inline (09 "CARD", 23 e 29 "Vitrine"). Ou seja, **não há divergência de formato entre GTM e recomendação: há lacuna.** O formato é decidido na produção sem critério registrado, e é o eixo onde a conta mais perde. **Proposta ao time: criar coluna Formato na planilha.**
+15. **Proposta dos 31 dias:** 31/31 temas mantidos (2 lacunas "a definir" preenchidas com guião pronto — 01 e 27/08). Mix: 19 reels (61%) · 11 carrosséis (35%) · 1 card (3%). Tipo: Produto 12 (39%) · Educação 8 (26%) · UGC 6 (19%) · Emocional 5 (16%).
+16. **Cobertura dos eixos vermelhos do módulo 16 em agosto:** mascote 7× (≥1/semana), tecnologia nomeada 3× (03/15/21), inclusão 1× (06), preço ancorado 3× (01/05/14 — Liquidação até 05/08), hero 9 de 9 em sex/sáb, criadoras nano/micro 6×, TikTok estreia 15/08.
+17. **Decisão de calendário registrada:** hero do Dia dos Pais no **sábado 08** (96 likes médios) e não no domingo 09 (69) — domingo fica com o card comemorativo (único card do mês) + Stories UGC.
+
 ## Decisões em aberto (aguardando o time)
 
 - [ ] Aprovar o de-para FINAL (reunião com Righi/mkt) — deadline crítico: **17/07** (#CresciDeKlin)
 - [ ] Validar placeholders de depoimentos/dados internos nos Stories (módulo 6)
 - [ ] Revisão técnica dos conteúdos de saúde (Dra. Be / pediatra)
 - [ ] Levar às áreas: paleta PV27 (mkt), kit charms/pins (produto), recrutamento nano/micro (influência)
+- [ ] **Antes de 1º/08 (módulo 17):** recrutar 8-10 criadoras-mãe (trava os dias 11/13/18/20/24/30 e a série de setembro) · agendar Dra. Be + laboratório para 15/08 · fechar paleta verão 26/27 antes do teaser de 05/08
+- [ ] Propor coluna **Formato** na planilha GTM (hoje a aba Ago só define tema e tipo)
 - [ ] Abrir PR para `main` quando aprovado
 - [ ] Automação de publicação (Nível 3): Routine diária de post via API + hospedagem de assets em URL pública
 

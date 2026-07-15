@@ -26,6 +26,7 @@ Sistema de criação de conteúdo para o nicho **calçados infantis / maternidad
 | 14 | [14-de-para-ajustes.md](14-de-para-ajustes.md) | De-Para: plano GTM × recomendações, dia a dia, com semáforo de prazo |
 | 15 | [15-radar-tendencias-avaliacao.md](15-radar-tendencias-avaliacao.md) | Radar de Tendências (10 e 13/07) × proposta: convergências e 7 ajustes |
 | 16 | [16-aderencia.md](16-aderencia.md) | **Aderência: recomendado × praticado** — 34% global, medido nos 229 posts |
+| 17 | [17-calendario-agosto.md](17-calendario-agosto.md) | **Calendário de agosto dia a dia** — 31/31 temas mantidos, formato proposto |
 
 ## Os 7 pilares do sistema
 
