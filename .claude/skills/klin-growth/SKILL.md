@@ -1,71 +1,108 @@
 ---
 name: klin-growth
 description: >
-  Opera o Sistema de Crescimento Instagram da Klin (@klin_oficial, calçados infantis).
-  Use quando o usuário pedir: análise da conta Klin, atualização do de-para GTM, consumo do
-  Radar de Tendências, criação de conteúdo (reels/carrosséis/stories/legendas/ganchos),
-  estudo de concorrência (Bibi/Pampili/Kidy), ou qualquer avanço no projeto Klin/Instagram.
-  Garante que todo avanço seja registrado em PROGRESSO.md, commitado e enviado ao branch.
+  Sistema de Crescimento Instagram da Klin (@klin_oficial, calçados infantis).
+  Gatilho principal: o Allan diz um MÊS ("roda o growth de agosto", "monta o plano de
+  setembro", "growth de out/26") e a skill entrega o PLANO COMPLETO em 3 artifacts —
+  De-Para GTM, Calendário do mês dia a dia, e As peças do mês. Também use para:
+  análise da conta, medição de aderência, consumo do Radar de Tendências, estudo de
+  concorrência (Bibi/Pampili/Kidy), criação de conteúdo ou geração de arte final.
+  Todo avanço é registrado em PROGRESSO.md, commitado e pushado no branch.
 ---
 
 # Klin Growth — Sistema de Crescimento Instagram
 
-## Regra nº 1 — Continuidade via repo
+## Regra nº 1 — a entrega são 3 telas, sempre
 
-Todo trabalho deste projeto vive em `docs/instagram-growth-system/` no branch
+Quando o Allan disser um mês, a entrega **não é um texto**: são **3 artifacts HTML**, nessa
+ordem, um puxando o outro por link no rodapé.
+
+| # | Artifact | O que responde | URL |
+|---|---|---|---|
+| 1 | **De-Para GTM Klin — <trimestre>** | O que o plano diz × o que eu faria × **quanto disso já fazemos** (placar de aderência) | **FIXA:** `dec7f5e9-fb08-45ba-b7fe-c215bed1583e` — republicar, nunca criar nova |
+| 2 | **<Mês> — Calendário Proposto** | Os 30/31 dias, cada um com formato, gancho e ângulo, contra o que está na aba do mês | 1 por mês (agosto/26: `1f4d52f4-1e02-4a9d-aafe-810bbd033b99`) |
+| 3 | **As peças de <mês>** | Como a peça sai: frame de abertura, roteiro com timecode, texto na tela, legenda | 1 por mês (agosto/26: `76c5225b-5260-4b10-95dc-c9bb6163fdf5`) |
+
+Detalhes de estrutura, tokens visuais e esqueleto HTML: **`references/artifacts.md`**.
+
+## Regra nº 2 — continuidade via repo
+
+Tudo vive em `docs/instagram-growth-system/` no branch
 `claude/instagram-growth-ai-system-0tbqk7` (repo `hgemeyer/XSquads`).
 
-**Ao iniciar:** `git checkout claude/instagram-growth-ai-system-0tbqk7 && git pull origin claude/instagram-growth-ai-system-0tbqk7`, depois ler `docs/instagram-growth-system/PROGRESSO.md` (estado atual) e `README.md` (índice dos módulos).
+**Ao iniciar:** `git checkout claude/instagram-growth-ai-system-0tbqk7 && git pull`, depois ler
+`PROGRESSO.md` (estado atual) e `README.md` (índice dos módulos).
 
-**Ao terminar QUALQUER avanço (obrigatório):**
-1. Atualizar `PROGRESSO.md` (linha do tempo + decisões em aberto)
-2. `git add docs/instagram-growth-system/ && git commit -m "docs: <o que avançou>"` (Conventional Commits)
-3. `git push -u origin claude/instagram-growth-ai-system-0tbqk7`
+**Ao terminar QUALQUER avanço (obrigatório):** atualizar `PROGRESSO.md` → commit
+convencional → `git push origin claude/instagram-growth-ai-system-0tbqk7`. Sessões remotas
+são efêmeras; o repo é a única memória durável.
 
-Nunca deixar avanço sem push — sessões remotas são efêmeras; o repo é a única memória durável.
+## O fluxo do mês (o que fazer quando ele disser "agosto")
 
-## Mapa dos módulos
+Detalhe passo a passo, com os comandos: **`references/fluxo-mensal.md`**. Resumo:
 
-| Módulo | Conteúdo |
-|---|---|
-| README.md | Índice + 7 pilares + como operar |
-| PROGRESSO.md | **Estado atual, linha do tempo, pendências** — ler primeiro |
-| 01-03 | Pesquisa, 20 oportunidades, 50 ganchos |
-| 04-06 | 30 reels, 20 carrosséis, 30 stories (prontos p/ produção) |
-| 07-08 | Sistema visual (21 prompts IA) e de legendas |
-| 09-10 | Calendário 30 dias e reutilização multicanal |
-| 11 | Estudo 360º: 6 meses de dados + leitura do GTM |
-| 12-13 | Concorrência nacional e premium (com fontes) |
-| 14 | **De-Para GTM FINAL** (documento de decisão do time) |
-| 15 | Radar de Tendências × proposta (convergências + 7 ajustes) |
+1. **Ler o repo** — `PROGRESSO.md` + módulos 11 (estudo), 14 (de-para), 16 (aderência).
+2. **Puxar a conta** — mídia da @klin_oficial via Composio, janela dos últimos ~6 meses.
+   Recalcular os baselines (não confiar nos números velhos).
+3. **Medir a aderência** — `scripts/medir_aderencia.py`, os 12 eixos. É isso que transforma
+   opinião em placar.
+4. **Ler a aba do mês na planilha GTM** (Drive via Composio). **Atenção:** as abas definem
+   **tema e tipo, não formato** — o formato é a lacuna, e é onde a conta perde.
+5. **Consumir o Radar** mais recente (Gmail via Composio) + concorrência (módulos 12-13).
+6. **Montar os 3 artifacts** na ordem acima.
+7. **Se pedir arte:** skill `designer-klin` (ver `references/pecas.md` §Arte final).
+8. **Registrar:** módulo novo em `docs/instagram-growth-system/` + PROGRESSO + push.
 
 ## Fontes de dados (via Composio MCP)
 
 | Dado | Como acessar |
 |---|---|
-| Métricas da conta | `INSTAGRAM_GET_USER_INFO` / `INSTAGRAM_GET_IG_USER_MEDIA` (ig_user_id: "me", conta @klin_oficial) — paginar com `cursors.after`; legendas de posts específicos via `INSTAGRAM_GET_IG_MEDIA` |
-| Planilha GTM | Google Drive, arquivo `16o3nAkTqRBZcCbM4uJsSzbRvtNwt7IuNEGFuGWPGZPk` ("GTM Klin") — exportar como xlsx via `GOOGLEDRIVE_DOWNLOAD_FILE` (abas: Jun/Jul/Ago/SET + Datas Importantes + Estratégia de Brindes) e parsear com openpyxl |
-| Radar de Tendências | Gmail via `GMAIL_FETCH_EMAILS` com `subject:"Radar de Tendências KLIN"` — skill do usuário roda como Routine a cada 3 dias; sempre pegar a edição mais recente |
+| Métricas da conta | `INSTAGRAM_GET_IG_USER_MEDIA` (`ig_user_id:"me"`, conta klin_oficial). Campos: `id,caption,permalink,timestamp,media_type,media_product_type,like_count,comments_count`. Paginar com `paging.cursors.after` — itens em `response.data.data`, paging em `response.data.paging` |
+| Planilha GTM | Drive `16o3nAkTqRBZcCbM4uJsSzbRvtNwt7IuNEGFuGWPGZPk` ("GTM Klin") via `GOOGLEDRIVE_DOWNLOAD_FILE` — **o campo é `fileId`, não `file_id`**. Baixar o `s3url` e parsear com openpyxl. Abas: Jun/Jul/Ago/SET + Datas Importantes + Estratégia de Brindes |
+| Radar de Tendências | `GMAIL_FETCH_EMAILS` com `subject:"Radar de Tendências KLIN"` — roda como Routine a cada 3 dias; pegar sempre a edição mais recente |
 
-## Fatos-chave (não redescobrir; revalidar ~mensalmente com dados novos)
+## Fatos-chave da conta
 
-- Conta: 472,5k seguidores; engajamento base ~0,014%; meta ≥100 likes/post até 30/09
-- Reels +69% likes / +122% comentários vs card; sex/sáb são os melhores dias
-- Fórmulas virais provadas: concurso UGC (487), inclusão real c/ especialista (464+270), mascote+trend (422), emocional 3 gerações (416), série animada mascote (161-222)
-- Card-vitrine de produto é o pior conteúdo — produto sempre disfarçado em rotina/ocasião de uso
-- Diferenciais a martelar: selo IBTeC, SAV, Palmilha Ultra (resposta ao FisioFlex da Bibi)
-- Campanha ativa: #CresciDeKlin (nostalgia intergeracional)
-- Territórios vagos no segmento: TikTok e "mãe para mãe"; não disputar o Dia da Menina (23/09, Pampili)
-- Tom: mãe para mãe, 💛🐾, nunca institucional, saúde sempre com "converse com o pediatra"; conteúdo IA marcado "*Conteúdo gerado por IA"
+Baseline vivo em **`references/dados-conta.md`** (revalidar todo mês com dados novos).
+O essencial:
 
-## Fluxos operacionais
+- 472,5k seguidores · **79,1 likes médios/post** (229 posts, 14/jan–15/jul/26)
+- **Reel 106 likes / 10 comentários · Carrossel 70 / 2,9 · Card 62 / 4,4** — reel bate card em +70% likes e +127% comentários
+- **Sex 101 · Sáb 96** vs qua 66 / dom 69 → todo hero em sexta ou sábado
+- Fórmulas virais provadas: concurso UGC (487), **inclusão real c/ especialista (464+270 — 254 likes médios, o maior recorte da conta)**, **mascote (422; 176 likes médios vs 79 da conta)**, emocional 3 gerações (416), série animada (161-222)
+- Card-vitrine é o pior conteúdo; produto sempre em rotina/ocasião de uso (produto em reel: 128 likes; em card: 73)
+- Diferenciais a martelar: **IBTeC, SAV, Palmilha Ultra** — resposta ao FisioFlex da Bibi
+- Territórios vagos: **TikTok** e **"mãe para mãe"**; não disputar o Dia da Menina (23/09, Pampili)
+- Tom: mãe para mãe, 💛🐾, nunca institucional; saúde sempre com "converse com o pediatra"; conteúdo IA marcado "*Conteúdo gerado por IA"
 
-**Atualizar estudo de performance:** puxar mídia dos últimos N meses via API → CSV (date,fmt,likes,comments) → estatísticas por mês/formato/dia → atualizar módulo 11 e metas do PROGRESSO.md.
+## Aderência — o placar que ancora tudo
 
-**Consumir novo Radar:** buscar e-mail mais recente → cruzar com módulos 14-15 → atualizar matriz de convergência e o de-para → registrar em PROGRESSO.md.
+**34% em 15/07/2026** (12 eixos, média ponderada por impacto). É o número que transforma a
+conversa de opinião em fato. Eixos, metas, fórmula e como reexecutar:
+**`references/aderencia.md`** + `scripts/medir_aderencia.py`.
 
-**Atualizar o de-para visual:** editar o HTML e republicar o artifact existente (URL fixa: https://claude.ai/code/artifact/dec7f5e9-fb08-45ba-b7fe-c215bed1583e) — nunca criar URL nova.
+Os 7 eixos vermelhos em jul/26: preço ancorado em valor (0%), nano/micro criadoras (0%),
+TikTok (0%), gancho na 1ª linha (13%), **tecnologia nomeada (14% — IBTeC e SAV nunca
+citados em 6 meses)**, mascote (27% — zero em julho), inclusão (29%).
 
-**Criar conteúdo novo:** seguir formatos dos módulos 04-06 (IDs R/C/S sequenciais), ganchos do módulo 03, legendas do 08, visuais do 07 (paleta PV27: Rosa Pitaya, Laranja Papaya, Verde Glimmer + dourado Klin).
+**Correlação aderência × likes: r = 0,74** (7 meses). Abril foi o mês mais aderente (67%) e o
+melhor (103 likes); julho, o menos aderente do trimestre e o pior (60). **Rotular sempre como
+relação forte, NÃO como prova de causa** — n=7 e abril teve Dia das Mães.
 
-**Publicação via API (quando ativada):** exige asset em URL pública; stickers interativos de Stories só pelo app.
+## Peças
+
+Anatomia de reel/carrossel/card, régua de qualidade, travas de produção e o caminho da arte
+final: **`references/pecas.md`**.
+
+O sistema já tem guião pronto para boa parte do mês — **usar antes de inventar**: módulo 03
+(50 ganchos), 04 (30 reels R01-R30), 05 (20 carrosséis C01-C20), 07 (visual + prompts IA),
+08 (legendas).
+
+## Armadilhas — leia antes de reportar qualquer número
+
+**`references/armadilhas.md`** — erros que já custaram retrabalho aqui e não podem se repetir
+(o emoji 🐾 inflando o mascote para 100%, guião citado em dois dias, emoji virando tofu na
+Gotham, CTA colidindo com subtítulo, `file_id` vs `fileId`, entre outros).
+
+A regra-mãe: **validar todo classificador por amostra antes de reportar**. Um número errado
+num artifact que vai pro time custa mais que meia hora conferindo.

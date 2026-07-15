@@ -43,6 +43,14 @@
 20. **Peça-chave do trimestre definida — 15/08:** gancho *"Seu filho não precisa de tênis ortopédico. E sim, é uma marca de calçado falando isso."* Nomeia IBTeC + ocupa "bico largo" (ação nº 1 do Radar) + estreia no TikTok, tudo na mesma peça. Fecha com ressalva de que a orientação do pediatra vem primeiro — inegociável.
 21. **Travas de produção registradas:** 06/08 exige autorização de imagem assinada (família + especialista) antes de gravar, e narrativa de rotina, não de "superação"; 22/08 respeita a regra de que o mascote nunca fala.
 
+### 15/jul/2026 — Sessão 5 (skill reescrita: o mês vira plano completo)
+
+22. **Skill `klin-growth` reescrita** (`.claude/skills/klin-growth/`, versionada no repo). **Novo contrato de entrega:** o Allan diz um MÊS → a skill estuda conta + mercado + concorrência + formatos já usados e entrega **3 artifacts** (De-Para GTM na URL fixa · `<Mês> — Calendário Proposto` · `As peças de <mês>`). Antes o SKILL.md era um índice de módulos; agora é um fluxo executável.
+23. **Estrutura nova:** `SKILL.md` (entrada) + `references/` (fluxo-mensal, aderencia, artifacts, pecas, dados-conta, armadilhas) + `scripts/medir_aderencia.py` (motor do placar, roda no workbench Composio) + `LEIA-ME.md` (instalação/dependências).
+24. **`references/armadilhas.md` — 22 erros registrados** para não se repetirem. Os que mais custaram: o emoji 🐾 inflando o mascote de 27% p/ 100%; `R01` citado em dois dias e errado nos dois; `file_id` vs **`fileId`** no Drive; emoji virando tofu na Gotham; CTA com y fixo colidindo; a IA inventando logo na lingueta; `capa_conceito` (R7) saindo sem logo e sem contraste; push não confirmado no remoto.
+25. **Régua de entrega registrada:** todo plano do mês responde (1) quanto do que pedimos já fazemos — com número, (2) o que muda em cada dia e por quê, (3) como a peça sai, (4) o que trava se não decidirem agora, (5) o que é dado e o que é aposta. E **nunca** vender correlação como causa.
+26. **Pasta portátil gerada** para rodar em outra máquina/Cowork: `Downloads\klin-growth\` + `Downloads\klin-growth.zip` (26 KB). O `LEIA-ME.md` lista dependências (Composio instagram/googledrive/gmail; repo XSquads obrigatório; designer-klin + FAL_KEY só para arte).
+
 ## Decisões em aberto (aguardando o time)
 
 - [ ] Aprovar o de-para FINAL (reunião com Righi/mkt) — deadline crítico: **17/07** (#CresciDeKlin)
@@ -69,3 +77,16 @@
 2. Ler este arquivo + [README.md](README.md) (índice dos 15 módulos)
 3. Usar o skill **`klin-growth`** (carrega automaticamente neste repo) para os fluxos operacionais
 4. Ao final de QUALQUER avanço: atualizar este arquivo, commit convencional e push no branch
+
+## Como pedir o plano de um mês (contrato da skill, desde 15/07)
+
+Basta dizer o mês — **"roda o growth de setembro"**. A skill lê o repo, puxa a conta pela API,
+mede a aderência (12 eixos), lê a aba do mês na planilha GTM, consome o Radar mais recente e a
+concorrência, e entrega **3 artifacts encadeados**:
+
+1. **De-Para GTM** — URL FIXA `dec7f5e9-fb08-45ba-b7fe-c215bed1583e` (republicar, nunca criar nova)
+2. **`<Mês> — Calendário Proposto`** — os 30/31 dias com formato, gancho e ângulo
+3. **`As peças de <mês>`** — frame de abertura, roteiro com timecode, texto na tela, legenda
+
+Manual completo em `.claude/skills/klin-growth/` (SKILL.md + references/ + scripts/).
+**Ler `references/armadilhas.md` antes de reportar qualquer número.**
