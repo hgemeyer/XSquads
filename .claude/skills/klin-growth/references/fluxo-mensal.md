@@ -82,14 +82,19 @@ dado externo.
 
 ## 6. Montar os 3 artifacts
 
-Ver `references/artifacts.md` (estrutura, tokens, esqueleto). Ordem e encadeamento:
+Ver `references/artifacts.md` (estrutura, tokens, esqueleto). **Os 3 têm URL fixa — republicar,
+passando `url`. Nunca criar nova:** o time salvou esses links e não recebe link novo todo mês.
 
-1. **De-Para** — republicar na URL fixa; atualizar o placar de aderência com os números novos.
-2. **Calendário do mês** — os 30/31 dias, faixa dourada em sex/sáb, "No GTM" no rodapé de cada
-   célula. **Manter 100% dos temas**; mudar formato/gancho/ângulo. Preencher lacunas
-   ("a definir") com guião pronto dos módulos 04/05.
-3. **As peças** — 6-8 peças cobrindo os 3 formatos + a anatomia + tabela de onde os outros
-   dias buscam guião.
+1. **De-Para** (`dec7f5e9…`) — atualizar o placar de aderência com os números novos.
+2. **Calendário do mês** (`1f4d52f4…`) — os 30/31 dias, faixa dourada em sex/sáb, "No GTM" no
+   rodapé de cada célula. **Manter 100% dos temas**; mudar formato/gancho/ângulo. Preencher
+   lacunas ("a definir") com guião pronto dos módulos 04/05.
+3. **As peças** (`76c5225b…`) — 6-8 peças cobrindo os 3 formatos + a anatomia + tabela de onde
+   os outros dias buscam guião.
+
+**Quem lê é quem executa.** O time grava a partir dessas telas, sem te perguntar nada: gancho,
+texto na tela, B-roll, legenda, CTA e trava de produção têm que estar na página. O que ficar
+ambíguo vira erro de produção ou pergunta no WhatsApp.
 
 **Checar o mix antes de publicar:** reels ≥50%, carrossel ~35%, card ≤15%; tipo 40/25/20/15
 (Produto/Educação/UGC/Emocional). E que os eixos vermelhos do módulo 16 estejam cobertos.
@@ -100,6 +105,10 @@ Skill `designer-klin`. Ver `references/pecas.md` §Arte final — inclusive a re
 **a IA nunca inventa o calçado KLIN** e o custo tem que ser informado no fim.
 
 ## 8. Registrar e pushar (obrigatório)
+
+O time **não** faz push e **não** roda a skill — só o Allan opera. O repo é a memória da
+operação e o histórico dos meses fechados, não o canal do time. O canal do time são os 3 links.
+
 
 - Módulo novo em `docs/instagram-growth-system/` (numeração contínua; 16=aderência,
   17=calendário ago, 18=peças ago)

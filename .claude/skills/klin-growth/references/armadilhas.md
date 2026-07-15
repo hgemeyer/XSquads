@@ -118,9 +118,21 @@ de cada carrossel.
 19 dos 31 dias de agosto são reels. Reel = gravação; o que se gera é **capa + texto na tela**.
 Peças 100% estáticas: card e carrossel. **Dizer isso antes de prometer arte do mês inteiro.**
 
-### 21. Republicar, não recriar
-O De-Para tem **URL fixa** (`dec7f5e9-…`). Passar `url` no Artifact. Criar URL nova quebra o
-link que o time já tem.
+### 21. Republicar, não recriar — os 3 têm URL fixa
+De-Para `dec7f5e9-…` · Calendário `1f4d52f4-…` · Peças `76c5225b-…`. Passar `url` no Artifact.
+**Criar URL nova quebra o link que o time já salvou** — e como só o Allan opera, o time não tem
+como descobrir o link novo sozinho. Errei o desenho na primeira versão: publiquei calendário e
+peças como URL do mês, o que obrigaria o Allan a recompartilhar todo mês, para sempre.
+
+### 23. Artifact nasce privado — e a ferramenta não compartilha
+Publicar **não** dá acesso a ninguém. O Allan tem que compartilhar pelo menu da própria página,
+um por um. Não existe parâmetro de share no Artifact. **Ao publicar artifact novo, avisar.**
+É a razão de ser da regra de URL fixa: compartilha uma vez, vale para sempre.
+
+### 24. O time não opera — escrever para quem executa
+Só o Allan roda a skill (Composio, push, medição). O time **consome e operacionaliza**: grava e
+publica a partir das telas, sem perguntar nada. Gancho, texto na tela, B-roll, legenda, CTA e
+trava de produção têm que estar **na página**. O que ficar na conversa não chega em quem grava.
 
 ### 22. Confirmar o push no remoto
 `git push` silencioso + `git log` local **não provam** que subiu. Fazer `git fetch` e conferir

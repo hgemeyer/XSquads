@@ -1,5 +1,16 @@
 # klin-growth — instalação e uso em outra máquina
 
+## Modelo de operação (ler antes de tudo)
+
+| Papel | Quem | O que precisa |
+|---|---|---|
+| **Opera** — roda a skill, mede, publica, faz push | **só o Allan** | Composio, write no repo, esta skill |
+| **Consome e operacionaliza** — grava, produz, publica no feed | **o time** | Só os **3 links fixos** |
+
+**O time não instala nada.** Não precisa desta skill, nem de Composio, nem de acesso de escrita
+no repo. Ele abre 3 links e trabalha. Esta pasta é para as máquinas onde **o Allan** opera
+(local ou Cowork).
+
 Skill portátil. Copie a pasta inteira `klin-growth/` para `~/.claude/skills/` (Claude Code) ou
 suba no Cowork. O nome da pasta **tem que ser** `klin-growth` (bate com o `name:` do SKILL.md).
 
@@ -51,13 +62,23 @@ git clone -b claude/instagram-growth-ai-system-0tbqk7 https://github.com/hgemeye
 cat XSquads/docs/instagram-growth-system/PROGRESSO.md
 ```
 
-## URLs fixas
+## As 3 URLs fixas — o canal do time
+
+**Republicar sempre nestas. Nunca criar URL nova** — o time salvou esses links e não pode
+receber link novo todo mês.
 
 | Artifact | URL |
 |---|---|
-| De-Para GTM (**republicar sempre nesta**) | https://claude.ai/code/artifact/dec7f5e9-fb08-45ba-b7fe-c215bed1583e |
-| Agosto — Calendário Proposto | https://claude.ai/code/artifact/1f4d52f4-1e02-4a9d-aafe-810bbd033b99 |
-| As peças de agosto | https://claude.ai/code/artifact/76c5225b-5260-4b10-95dc-c9bb6163fdf5 |
+| De-Para GTM | https://claude.ai/code/artifact/dec7f5e9-fb08-45ba-b7fe-c215bed1583e |
+| `<Mês>` — Calendário Proposto | https://claude.ai/code/artifact/1f4d52f4-1e02-4a9d-aafe-810bbd033b99 |
+| As peças de `<Mês>` | https://claude.ai/code/artifact/76c5225b-5260-4b10-95dc-c9bb6163fdf5 |
+
+O título acompanha o mês; a URL e o favicon não mudam. Cada mês fechado fica registrado como
+módulo no repo — **a história vive no repo; o link é sempre o mês corrente.**
+
+⚠️ **Artifact nasce privado.** Estes 3 já foram compartilhados pelo Allan. Qualquer artifact
+**novo** precisa que ele compartilhe pelo menu da própria página — nenhuma ferramenta faz isso
+por ele. É por isso que a regra de URL fixa existe: compartilha uma vez, vale para sempre.
 
 ## IDs que a skill precisa
 

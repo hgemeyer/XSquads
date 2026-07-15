@@ -51,6 +51,14 @@
 25. **Régua de entrega registrada:** todo plano do mês responde (1) quanto do que pedimos já fazemos — com número, (2) o que muda em cada dia e por quê, (3) como a peça sai, (4) o que trava se não decidirem agora, (5) o que é dado e o que é aposta. E **nunca** vender correlação como causa.
 26. **Pasta portátil gerada** para rodar em outra máquina/Cowork: `Downloads\klin-growth\` + `Downloads\klin-growth.zip` (26 KB). O `LEIA-ME.md` lista dependências (Composio instagram/googledrive/gmail; repo XSquads obrigatório; designer-klin + FAL_KEY só para arte).
 
+### 15/jul/2026 — Sessão 6 (modelo de operação: Allan opera, time consome)
+
+27. **Modelo definido pelo Allan:** ele é o **único operador** (roda a skill, mede, publica, faz push). O **time consome e operacionaliza** — grava e publica a partir das telas. O time **não** precisa de Composio, nem de write no repo, nem da skill. Precisa de **3 links**.
+28. **CORREÇÃO DE DESENHO — as 3 URLs agora são FIXAS.** Antes só o De-Para era fixo; calendário e peças nasciam com URL por mês, o que obrigaria o Allan a **recompartilhar tudo todo mês, para sempre** (artifact nasce privado). Agora: De-Para `dec7f5e9…` · Calendário `1f4d52f4…` · Peças `76c5225b…` — republicar sempre, título acompanha o mês, URL e favicon não mudam. **Compartilha uma vez, vale para sempre.** Histórico dos meses fechados fica no repo (módulos) e no version picker do artifact (`label`).
+29. **Achado de acesso:** repo é **público** (o time lê módulos e skill sem liberação), mas só `hgemeyer` é colaborador e o branch **não tem PR para `main`** — quem clonar o default não acha nada. Como o time não opera, isso deixou de ser bloqueio; segue pendente só para arquivar o trabalho em `main`.
+30. **Regra nova de escrita:** as telas são escritas **para quem executa, não para quem aprova**. Gancho, texto na tela, B-roll, legenda, CTA e trava de produção têm que estar na página — o que fica na conversa não chega em quem grava.
+31. **Armadilhas 23 e 24 registradas:** artifact nasce privado e a ferramenta não compartilha (avisar sempre que publicar artifact novo); e o time não opera — escrever para quem executa.
+
 ## Decisões em aberto (aguardando o time)
 
 - [ ] Aprovar o de-para FINAL (reunião com Righi/mkt) — deadline crítico: **17/07** (#CresciDeKlin)

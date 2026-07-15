@@ -12,16 +12,39 @@ description: >
 
 # Klin Growth — Sistema de Crescimento Instagram
 
+## Quem faz o quê (define tudo o resto)
+
+| Papel | Quem | O que precisa |
+|---|---|---|
+| **Opera** — roda a skill, mede, publica, faz push | **só o Allan** | Composio (instagram/googledrive/gmail), write no repo, esta skill |
+| **Consome e operacionaliza** — grava, produz, publica no feed | **o time** | Só os **3 links**. Nada de Composio, repo ou skill |
+
+Consequências, que valem como regra:
+
+1. **Os 3 artifacts têm URL FIXA.** Republicar sempre nas mesmas — o time salvou o link uma
+   vez e ele tem que continuar valendo todo mês. **Nunca criar URL nova.**
+2. **Artifact nasce privado.** Ao publicar um artifact **novo**, avisar o Allan que ele precisa
+   compartilhar pelo menu da própria página — nenhuma ferramenta faz isso por ele, e sem isso
+   o time não abre. Republicação em URL já compartilhada **não** precisa de nada.
+3. **Escrever para quem vai executar, não para quem vai aprovar.** O time operacionaliza a
+   partir dessas telas: o que estiver ambíguo vira pergunta ou erro de produção. Gancho, texto
+   na tela, B-roll, legenda e trava têm que estar na página — não na conversa.
+
 ## Regra nº 1 — a entrega são 3 telas, sempre
 
 Quando o Allan disser um mês, a entrega **não é um texto**: são **3 artifacts HTML**, nessa
 ordem, um puxando o outro por link no rodapé.
 
-| # | Artifact | O que responde | URL |
+| # | Artifact | O que responde | URL — **FIXA, republicar** |
 |---|---|---|---|
-| 1 | **De-Para GTM Klin — <trimestre>** | O que o plano diz × o que eu faria × **quanto disso já fazemos** (placar de aderência) | **FIXA:** `dec7f5e9-fb08-45ba-b7fe-c215bed1583e` — republicar, nunca criar nova |
-| 2 | **<Mês> — Calendário Proposto** | Os 30/31 dias, cada um com formato, gancho e ângulo, contra o que está na aba do mês | 1 por mês (agosto/26: `1f4d52f4-1e02-4a9d-aafe-810bbd033b99`) |
-| 3 | **As peças de <mês>** | Como a peça sai: frame de abertura, roteiro com timecode, texto na tela, legenda | 1 por mês (agosto/26: `76c5225b-5260-4b10-95dc-c9bb6163fdf5`) |
+| 1 | **De-Para GTM Klin — <trimestre>** | O que o plano diz × o que eu faria × **quanto disso já fazemos** (placar de aderência) | `dec7f5e9-fb08-45ba-b7fe-c215bed1583e` |
+| 2 | **<Mês> — Calendário Proposto** | Os 30/31 dias, cada um com formato, gancho e ângulo, contra o que está na aba do mês | `1f4d52f4-1e02-4a9d-aafe-810bbd033b99` |
+| 3 | **As peças de <mês>** | Como a peça sai: frame de abertura, roteiro com timecode, texto na tela, legenda | `76c5225b-5260-4b10-95dc-c9bb6163fdf5` |
+
+O título muda de mês ("Setembro 2026 — Calendário Proposto"); **a URL e o favicon, não**. Usar
+`label` na publicação (ex.: `set-26`) — a versão anterior fica no histórico do artifact, e o mês
+fechado fica registrado como módulo no repo. **A história vive no repo; o link é sempre o mês
+corrente.**
 
 Detalhes de estrutura, tokens visuais e esqueleto HTML: **`references/artifacts.md`**.
 
