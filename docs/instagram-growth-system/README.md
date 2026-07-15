@@ -27,6 +27,7 @@ Sistema de criação de conteúdo para o nicho **calçados infantis / maternidad
 | 15 | [15-radar-tendencias-avaliacao.md](15-radar-tendencias-avaliacao.md) | Radar de Tendências (10 e 13/07) × proposta: convergências e 7 ajustes |
 | 16 | [16-aderencia.md](16-aderencia.md) | **Aderência: recomendado × praticado** — 34% global, medido nos 229 posts |
 | 17 | [17-calendario-agosto.md](17-calendario-agosto.md) | **Calendário de agosto dia a dia** — 31/31 temas mantidos, formato proposto |
+| 18 | [18-pecas-agosto.md](18-pecas-agosto.md) | **Formato das peças de agosto** — frame, roteiro, texto na tela e legenda |
 
 ## Os 7 pilares do sistema
 

@@ -36,6 +36,13 @@
 16. **Cobertura dos eixos vermelhos do módulo 16 em agosto:** mascote 7× (≥1/semana), tecnologia nomeada 3× (03/15/21), inclusão 1× (06), preço ancorado 3× (01/05/14 — Liquidação até 05/08), hero 9 de 9 em sex/sáb, criadoras nano/micro 6×, TikTok estreia 15/08.
 17. **Decisão de calendário registrada:** hero do Dia dos Pais no **sábado 08** (96 likes médios) e não no domingo 09 (69) — domingo fica com o card comemorativo (único card do mês) + Stories UGC.
 
+### 15/jul/2026 — Sessão 4 (formato das peças)
+
+18. **Módulo 18 criado — [18-pecas-agosto.md](18-pecas-agosto.md)** + artifact: https://claude.ai/code/artifact/76c5225b-5260-4b10-95dc-c9bb6163fdf5 — 7 peças de agosto com frame de abertura, roteiro com timecode, texto na tela, B-roll e legenda. Cobre os 3 formatos. **R19 e C02 aparecem na íntegra** (já estavam prontos — é gravar).
+19. **Bug corrigido no módulo 17:** o guião `R01` estava citado em **dois dias** (01 e 27/08) e errado nos dois — 01/08 usa **R22** (primeiros passos) e 27/08 usa **C02** (o carrossel do tema; R01 é o reel). Artifact do calendário republicado na mesma URL. **Regra nova: ao citar guião, conferir se o ID bate com o formato (R=reel, C=carrossel) e se não repete no mês.**
+20. **Peça-chave do trimestre definida — 15/08:** gancho *"Seu filho não precisa de tênis ortopédico. E sim, é uma marca de calçado falando isso."* Nomeia IBTeC + ocupa "bico largo" (ação nº 1 do Radar) + estreia no TikTok, tudo na mesma peça. Fecha com ressalva de que a orientação do pediatra vem primeiro — inegociável.
+21. **Travas de produção registradas:** 06/08 exige autorização de imagem assinada (família + especialista) antes de gravar, e narrativa de rotina, não de "superação"; 22/08 respeita a regra de que o mascote nunca fala.
+
 ## Decisões em aberto (aguardando o time)
 
 - [ ] Aprovar o de-para FINAL (reunião com Righi/mkt) — deadline crítico: **17/07** (#CresciDeKlin)
