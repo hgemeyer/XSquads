@@ -4,6 +4,8 @@
 
 ## Estado atual (15/jul/2026)
 
+> ⚠️ **PARADO NO MEIO DE UMA TAREFA (15/jul, fim do dia).** Leia **[20-RETOMAR-AQUI.md](20-RETOMAR-AQUI.md)** antes de qualquer coisa. Resumo: o link `1f4d52f4…` está com outubro, mas foi compartilhado como agosto; e faltam publicar os 3 calendários (ago/set/out) com gancho e copy — o gerador com os **92 dias já escritos** está em `scripts/gen_calendarios.py`.
+
 **Fase:** Sistema completo + estudo 360º + de-para FINAL + **medição de aderência (34%)** prontos para discussão com o time.
 **Branch de trabalho:** `claude/instagram-growth-ai-system-0tbqk7` (ainda não mesclado ao `main` — abrir PR quando o time aprovar).
 **Artifact visual (de-para):** https://claude.ai/code/artifact/dec7f5e9-fb08-45ba-b7fe-c215bed1583e
@@ -67,6 +69,15 @@
 35. **As 5 teses de outubro:** (1) o hero de presente é **sábado 10/10**, não o dia 12 — o Dia das Crianças cai numa **segunda** (78 likes vs 96 do sábado) e a compra decide no fim de semana anterior; (2) **Halloween cai num sábado (31/10)** = sábado + mascote + trend = a fórmula do 422, o maior viral do trimestre; (3) ⚠️ **"Cards da data"** do HALLOW KLIN contraria o dado (card 62 × reel 106) → 1 card no 29 e o hero em reel no 31; (4) **PINs: Radar e GTM convergiram sozinhos** — não é sugestão nova, é acelerar o que já está no plano; (5) o **FOCO do mês é LED** (flash "pisou, piscou") — 50% do foco **só existe em vídeo**, o argumento mais fácil contra a vitrine.
 36. **Mix de outubro:** 18 reels (58%) · 11 carrosséis (35%) · 2 cards (6%) · mascote **semanal** (5 eps) · tecnologia 2× · inclusão 1× · preço ancorado 4× · **hero 10 de 10** em sex/sáb.
 37. **PENDÊNCIA:** as **peças de outubro** ainda não foram montadas — o artifact `76c5225b…` segue mostrando as de agosto. Prioridade da próxima sessão: 10/10 (hero de presente + PINs), 31/10 (Halloween + mascote), 07/10 (Dra. Be) e 02/10 (Flash no escuro).
+
+### 15/jul/2026 — Sessão 8 (reversão da política de URL + ganchos e copy) — **PARADA NO MEIO**
+
+38. **REVERSÃO (decisão do Allan):** **um link por mês**, todos vivos. Só o **De-Para** continua fixo. Eu tinha fixado os 3 argumentando que o time não pode receber link novo todo mês — aí rodei outubro, **republiquei por cima e apaguei a visão de agosto**, que já estava compartilhada. **Custo aceito:** 2 links novos por mês para o Allan compartilhar. **Lição registrada (armadilha 21): decisão de design que apaga trabalho anterior não é minha.**
+39. **Gancho e copy passam a ser parte do calendário**, em todos os dias — não extra. O time grava a partir dele, e a **aba SET marca "Hooks?" como pendente**: é isso que o calendário fecha. Spec atualizada em `references/artifacts.md`.
+40. **As abas de mês não têm o mesmo layout** (armadilha 25): `Ago` = `Data|Dia|Conteúdo|Tipo|Observação` (**sem** Formato); `SET` = com **Formato** (12 carrosséis · 11 reels · 7 cards) + coluna de pendências. **Inspecionar as 6 primeiras linhas antes de parsear.**
+41. **Setembro lido por inteiro** (30 dias, com formato e observações). Destaques: 04 e 10/09 = série de mães reais (a melhor aposta do trimestre, "Rotina Real"); 15/09 Dia do Cliente; 17/09 SAV; 18-19/09 lançamento Dia das Crianças; 26/09 desafio das telas; 29/09 volta da animação do Klin.
+42. **Gerador `scripts/gen_calendarios.py` criado com os 92 dias escritos** (ago 31 + set 30 + out 31), cada um com formato, tipo, guião, proposta, **gancho** e **copy**. Mais `scripts/_base.css` (tokens, chips, `.hk`, `.cp`, `.nav`). **Não foi executado nem publicado** — é o ponto exato da retomada.
+43. **Estado inconsistente registrado em [20-RETOMAR-AQUI.md](20-RETOMAR-AQUI.md)**, com o passo a passo do que falta.
 
 ## Decisões em aberto (aguardando o time)
 

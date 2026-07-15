@@ -118,16 +118,32 @@ de cada carrossel.
 19 dos 31 dias de agosto são reels. Reel = gravação; o que se gera é **capa + texto na tela**.
 Peças 100% estáticas: card e carrossel. **Dizer isso antes de prometer arte do mês inteiro.**
 
-### 21. Republicar, não recriar — os 3 têm URL fixa
-De-Para `dec7f5e9-…` · Calendário `1f4d52f4-…` · Peças `76c5225b-…`. Passar `url` no Artifact.
-**Criar URL nova quebra o link que o time já salvou** — e como só o Allan opera, o time não tem
-como descobrir o link novo sozinho. Errei o desenho na primeira versão: publiquei calendário e
-peças como URL do mês, o que obrigaria o Allan a recompartilhar todo mês, para sempre.
+### 21. URL: só o De-Para é fixo — calendário e peças são um por mês ⚠️ errei DUAS vezes
+Primeiro publiquei calendário e peças com URL por mês. Achei que era erro (obrigaria a
+recompartilhar todo mês) e **fixei os três**. Aí rodei outubro, **republiquei por cima e apaguei
+a visão de agosto** — que o Allan já tinha compartilhado com o time. Ele reverteu:
+**quer todos os meses no ar.**
+Regra final: **De-Para fixo** (`dec7f5e9-…`, documento vivo de estratégia) · **calendário e peças,
+um por mês**, anteriores preservados. **Custo conhecido e aceito:** 2 links novos por mês para o
+Allan compartilhar.
+**A lição maior:** eu otimizei para "menos trabalho de compartilhar" e destruí histórico sem
+perguntar. Quando uma decisão de design apaga trabalho anterior, ela não é minha — é dele.
 
 ### 23. Artifact nasce privado — e a ferramenta não compartilha
 Publicar **não** dá acesso a ninguém. O Allan tem que compartilhar pelo menu da própria página,
 um por um. Não existe parâmetro de share no Artifact. **Ao publicar artifact novo, avisar.**
 É a razão de ser da regra de URL fixa: compartilha uma vez, vale para sempre.
+
+### 25. As abas de mês NÃO têm o mesmo layout
+`Ago` tem `Data | Dia | Comunicação/Conteúdo | Tipo | Observação` — **sem formato**.
+`SET` tem `Data | Dia | Comunicação/Conteúdo | Tipo | **Formato** | Observação` — **com formato**,
+e uma coluna de pendências que marca **"Hooks?"**. **Não assumir layout: inspecione as 6
+primeiras linhas de cada aba antes de parsear.** E não existe aba de Out/Nov/Dez — outubro em
+diante sai da linha do mês na aba `Estratégia NACIONAL - GTM`.
+
+### 26. Gancho e copy são parte do calendário, não extra
+O time grava a partir do calendário. Sem gancho e copy em cada dia, ele é um quadro de temas —
+e a própria aba SET marca "Hooks?" como pendente há meses. Toda célula leva os dois.
 
 ### 24. O time não opera — escrever para quem executa
 Só o Allan roda a skill (Composio, push, medição). O time **consome e operacionaliza**: grava e

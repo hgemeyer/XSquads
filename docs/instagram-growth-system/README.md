@@ -29,6 +29,7 @@ Sistema de criação de conteúdo para o nicho **calçados infantis / maternidad
 | 17 | [17-calendario-agosto.md](17-calendario-agosto.md) | **Calendário de agosto dia a dia** — 31/31 temas mantidos, formato proposto |
 | 18 | [18-pecas-agosto.md](18-pecas-agosto.md) | **Formato das peças de agosto** — frame, roteiro, texto na tela e legenda |
 | 19 | [19-calendario-outubro.md](19-calendario-outubro.md) | **Outubro + cadência dos 75 dias** — todo dia 15, o mês corrente + 3 |
+| 20 | [20-RETOMAR-AQUI.md](20-RETOMAR-AQUI.md) | ⚠️ **LEIA PRIMEIRO** — estado da parada de 15/jul e o que falta |
 
 ## Os 7 pilares do sistema
 

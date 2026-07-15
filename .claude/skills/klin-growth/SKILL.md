@@ -55,16 +55,18 @@ Consequências, que valem como regra:
 Quando o Allan disser um mês, a entrega **não é um texto**: são **3 artifacts HTML**, nessa
 ordem, um puxando o outro por link no rodapé.
 
-| # | Artifact | O que responde | URL — **FIXA, republicar** |
+| # | Artifact | O que responde | URL |
 |---|---|---|---|
-| 1 | **De-Para GTM Klin — <trimestre>** | O que o plano diz × o que eu faria × **quanto disso já fazemos** (placar de aderência) | `dec7f5e9-fb08-45ba-b7fe-c215bed1583e` |
-| 2 | **<Mês> — Calendário Proposto** | Os 30/31 dias, cada um com formato, gancho e ângulo, contra o que está na aba do mês | `1f4d52f4-1e02-4a9d-aafe-810bbd033b99` |
-| 3 | **As peças de <mês>** | Como a peça sai: frame de abertura, roteiro com timecode, texto na tela, legenda | `76c5225b-5260-4b10-95dc-c9bb6163fdf5` |
+| 1 | **De-Para GTM Klin** | O que o plano diz × o que eu faria × **quanto disso já fazemos** (placar de aderência) | **FIXA:** `dec7f5e9-fb08-45ba-b7fe-c215bed1583e` |
+| 2 | **<Mês> — Calendário Proposto** | Os 30/31 dias, cada um com formato, **gancho, copy** e ângulo, contra a aba do mês | **uma por mês** |
+| 3 | **As peças de <mês>** | Como a peça sai: frame de abertura, roteiro com timecode, texto na tela, legenda | **uma por mês** |
 
-O título muda de mês ("Setembro 2026 — Calendário Proposto"); **a URL e o favicon, não**. Usar
-`label` na publicação (ex.: `set-26`) — a versão anterior fica no histórico do artifact, e o mês
-fechado fica registrado como módulo no repo. **A história vive no repo; o link é sempre o mês
-corrente.**
+**Um link por mês** (decisão do Allan, 15/07): os meses anteriores ficam no ar, o histórico é
+consultável. Só o De-Para é fixo. Custo aceito: **o Allan compartilha 2 links por mês** —
+artifact nasce privado. Cada calendário linka os outros meses numa barra `.nav` no topo.
+
+**Gancho e copy em todos os dias do calendário** — não é opcional. O time grava a partir dessa
+tela, e a aba SET marca "Hooks?" como pendente: é isso que o calendário fecha.
 
 Detalhes de estrutura, tokens visuais e esqueleto HTML: **`references/artifacts.md`**.
 

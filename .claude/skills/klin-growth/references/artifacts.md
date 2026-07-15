@@ -6,24 +6,28 @@ segunda tem que sentir que é o mesmo documento.
 
 Antes de escrever qualquer uma: carregar a skill `artifact-design`.
 
-## As 3 URLs são fixas — republicar, nunca criar nova
+## Política de URL — **um link por mês** (decisão do Allan, 15/07)
 
 | Artifact | URL | Favicon |
 |---|---|---|
-| De-Para GTM | `dec7f5e9-fb08-45ba-b7fe-c215bed1583e` | 🐾 |
-| `<Mês> — Calendário Proposto` | `1f4d52f4-1e02-4a9d-aafe-810bbd033b99` | 📅🐾 |
-| `As peças de <mês>` | `76c5225b-5260-4b10-95dc-c9bb6163fdf5` | 🎬🐾 |
+| De-Para GTM | **FIXA:** `dec7f5e9-fb08-45ba-b7fe-c215bed1583e` | 🐾 |
+| `<Mês> — Calendário Proposto` | **uma por mês** | 📅🐾 |
+| `As peças de <mês>` | **uma por mês** | 🎬🐾 |
 
-Passar sempre `url` no Artifact. **Por quê:** o time só consome — ele salvou esses 3 links e
-não pode receber link novo todo mês. URL nova = time olhando o mês errado.
+**O De-Para é o único fixo** (é documento vivo de estratégia, sempre o corrente). Calendário e
+peças **ganham URL nova a cada mês** e as anteriores **ficam no ar** — o histórico dos meses é
+consultável, não sobrescrito.
 
-Título acompanha o mês; **URL e favicon não mudam** (o time acha a aba pelo ícone). Usar `label`
-(`set-26`, `out-26`) para o histórico de versões. O mês fechado fica registrado como módulo no
-repo — **a história vive no repo; o link é sempre o mês corrente.**
+⚠️ **Errei isso uma vez.** Eu tinha feito os 3 fixos, argumentando que o time não pode receber
+link novo todo mês. Ao rodar outubro, **republiquei por cima e apaguei a visão de agosto**.
+O Allan reverteu: quer todos os links vivos. **O custo é conhecido e aceito:** artifact nasce
+privado, então **cada mês novo o Allan compartilha 2 links** (calendário + peças). Avisar sempre
+que publicar — nenhuma ferramenta compartilha por ele.
 
-**Artifact nasce privado.** Só nas 3 URLs acima o compartilhamento já está feito. Qualquer
-artifact **novo** exige que o Allan compartilhe pelo menu da página — avisar sempre, porque
-nenhuma ferramenta faz isso por ele.
+**Cada calendário linka os outros meses** numa barra de navegação no topo (`.nav`), para o time
+circular entre eles sem precisar de índice à parte.
+
+Mapa vivo das URLs: manter atualizado em `references/dados-conta.md` §URLs.
 
 ---
 
@@ -83,11 +87,23 @@ entregam. Célula:
 
 ```
 [dia + abrev]  [flags]
-[chip formato] [chip tipo]
+[chip formato] [chip tipo] [chip guião, se houver]
 proposta (o que eu faria, com o porquê em negrito)
+🎣 GANCHO — falado + na tela nos 2s        ← pill escura, amarelo
+✍️ COPY — 1ª linha da legenda              ← pill dourada
 ─────────
-No GTM: <texto literal da aba>
+No GTM / Na estratégia: <texto literal da aba>
 ```
+
+**Gancho e copy em TODOS os dias — não é opcional** (pedido do Allan, 15/07). Sem eles o
+calendário é plano, não peça: o time grava a partir dele. E a própria aba SET marca **"Hooks?"
+como pendente** — este calendário é o que fecha essa lacuna.
+O gancho é a frase falada **e** escrita na tela nos 2 primeiros segundos (máx. 8 palavras); a
+copy é a 1ª linha da legenda, antes do "…ver mais". **As duas costumam ser a mesma frase** —
+quando não forem, a copy expande o gancho, nunca o contradiz. Biblioteca de 50 ganchos no
+módulo 03; guiões prontos (R/C) já trazem o par pronto.
+
+Barra `.nav` no topo com os links dos outros meses + peças + de-para.
 
 Blocos abaixo da grade: legenda dos emojis · **O que muda de mês para mês** (tabela
 julho real → agosto proposta) · **O mix de conteúdo** (aba × proposta) · **As decisões que
