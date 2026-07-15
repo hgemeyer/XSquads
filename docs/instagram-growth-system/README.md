@@ -20,6 +20,9 @@ Sistema de criação de conteúdo para o nicho **calçados infantis / maternidad
 | 8 | [08-legendas.md](08-legendas.md) | Anatomia, 10 templates e 20 aberturas de legenda |
 | 9 | [09-calendario.md](09-calendario.md) | Calendário de 30 dias com objetivo, formato e CTA |
 | 10 | [10-reutilizacao.md](10-reutilizacao.md) | Matriz de adaptação para TikTok, Shorts, LinkedIn, Facebook, Threads, X e Newsletter |
+| 11 | [11-estudo-360-gtm.md](11-estudo-360-gtm.md) | Estudo 360º: 6 meses de dados reais + análise do plano GTM (jul/ago/set) + ajustes sugeridos |
+| 12 | [12-concorrencia-nacionais.md](12-concorrencia-nacionais.md) | Concorrência direta: Bibi, Pampili e Kidy (com fontes) |
+| 13 | [13-concorrencia-premium.md](13-concorrencia-premium.md) | Benchmarks A/B: VEJA Kids, Adidas Kids e Tip Toey Joey (com fontes) |
 
 ## Os 7 pilares do sistema
 
