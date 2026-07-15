@@ -367,3 +367,8 @@ build/
 .aiox-core/local/
 .claude/settings.local.json
 .aiox/install-log.txt
+
+# Exceção: skill do projeto Klin Growth é versionado (usado pelas sessões do Code)
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/klin-growth/
