@@ -4,7 +4,7 @@
 
 ## Estado atual (15/jul/2026)
 
-**Fase:** Sistema completo + estudo 360º + de-para FINAL prontos para discussão com o time.
+**Fase:** Sistema completo + estudo 360º + de-para FINAL + **medição de aderência (34%)** prontos para discussão com o time.
 **Branch de trabalho:** `claude/instagram-growth-ai-system-0tbqk7` (ainda não mesclado ao `main` — abrir PR quando o time aprovar).
 **Artifact visual (de-para):** https://claude.ai/code/artifact/dec7f5e9-fb08-45ba-b7fe-c215bed1583e
 
@@ -19,6 +19,14 @@
 5. **Radar de Tendências consumido (módulo 15)** — edições 10 e 13/07 (via Gmail/Composio; skill roda como Routine a cada 3 dias). Radar confirmou 6 teses e adicionou 4: camada racional de preço, selo IBTeC como hero, paleta verão 26/27, bico largo/TikTok.
 6. **De-para v2 FINAL (módulo 14 atualizado)** — integra radar: #CresciDeKlin (17/07), IBTeC em 3 peças de julho, nano/micro criadoras, charms como feature filmável do Dia das Crianças.
 7. **Skill `klin-growth` criado** em `.claude/skills/klin-growth/` + Routine de push automático configurada.
+
+### 15/jul/2026 — Sessão 2 (medição de aderência)
+
+8. **Módulo 16 criado — [16-aderencia.md](16-aderencia.md)**, a pedido do Allan: cruzar *o que precisamos fazer* × *o que já fazemos*. 12 eixos do módulo 14 medidos contra os **229 posts** reais (14/jan–15/jul, API via Composio). **Aderência global: 34%** — 1 verde, 4 amarelos, 7 vermelhos.
+9. **Piores eixos:** preço ancorado em valor, nano/micro criadoras e TikTok (0%); gancho na 1ª linha (13%); tecnologia nomeada (14% — **IBTeC e SAV nunca citados no feed em 6 meses**); mascote (27% — 176 likes médios e **zero em julho**); inclusão (29% — 254 likes médios, feito só 2×).
+10. **Correlação aderência × likes: r = 0,74** (7 meses). Abril = mês mais aderente (67%) e melhor (103,2 likes); julho = menos aderente do trimestre e pior do semestre (59,8). Rotulado como relação forte, **não causa** (abril teve Dia das Mães).
+11. **Armadilha registrada:** classificador de mascote inflava para 100% por contar o emoji 🐾 (assinatura de marca, 25 posts). Critério estrito → 7 posts, 27%. Validar classificador por amostra antes de reportar.
+12. **Artifact atualizado na MESMA URL** (dec7f5e9…): nova seção 1 "Aderência: o que pedimos × o que já fazemos" (medidor global, placar dos 12 eixos, série mensal aderência × likes); seções antigas renumeradas 2–7; base corrigida de 228 → 229 posts; nota de metodologia no rodapé.
 
 ## Decisões em aberto (aguardando o time)
 

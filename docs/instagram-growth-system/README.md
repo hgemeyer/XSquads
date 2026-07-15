@@ -25,6 +25,7 @@ Sistema de criação de conteúdo para o nicho **calçados infantis / maternidad
 | 13 | [13-concorrencia-premium.md](13-concorrencia-premium.md) | Benchmarks A/B: VEJA Kids, Adidas Kids e Tip Toey Joey (com fontes) |
 | 14 | [14-de-para-ajustes.md](14-de-para-ajustes.md) | De-Para: plano GTM × recomendações, dia a dia, com semáforo de prazo |
 | 15 | [15-radar-tendencias-avaliacao.md](15-radar-tendencias-avaliacao.md) | Radar de Tendências (10 e 13/07) × proposta: convergências e 7 ajustes |
+| 16 | [16-aderencia.md](16-aderencia.md) | **Aderência: recomendado × praticado** — 34% global, medido nos 229 posts |
 
 ## Os 7 pilares do sistema
 
