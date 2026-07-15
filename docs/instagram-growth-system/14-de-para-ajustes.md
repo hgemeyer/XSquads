@@ -1,104 +1,106 @@
-# De-Para: O Que Está no GTM × O Que Eu Faria
+# De-Para GTM Klin — VERSÃO FINAL (para discussão com o time)
 
-**Data da análise:** 15/jul/2026 · **Base:** plano GTM (abas Jul/Ago/Set) × 228 posts reais analisados (jan-jul) × concorrência ([estudo completo](11-estudo-360-gtm.md)).
+**v2 · 15/jul/2026** · Consolida: 228 posts reais da @klin_oficial (jan-jul) · plano GTM (abas Jul/Ago/Set) · concorrência ([nacionais](12-concorrencia-nacionais.md) e [premium](13-concorrencia-premium.md)) · **Radar de Tendências KLIN de 10 e 13/07** ([avaliação completa](15-radar-tendencias-avaliacao.md)).
 
-**Legenda de prazo:** 🟢 dá tempo de ajustar · 🟡 parcial (a data passou, mas a mecânica é recuperável) · 🔴 passou
+**Legenda:** 🟢 dá tempo · 🟡 parcial (data passou, mecânica não) · 🔴 passou · ⭐ aposta alta · 📡 validado/ajustado pelo Radar de Tendências
 
-**Placar geral: dos 63 conteúdos planejados para o trimestre, ~55 (87%) ainda são ajustáveis.** A maioria dos ajustes não muda o TEMA do plano — muda o FORMATO e o ÂNGULO. O time não precisa replanejar; precisa regravar a forma de contar.
+**Placar: dos 63 conteúdos planejados para o trimestre, ~55 (87%) ainda são ajustáveis.** A maioria dos ajustes mantém o TEMA do plano — muda FORMATO e ÂNGULO. O time não precisa replanejar; precisa regravar a forma de contar.
 
 ---
 
-## 1. De-Para estrutural (o mix)
+## 1. De-Para estrutural (o mix — vale para os 3 meses)
 
-| Dimensão | ESTAMOS FAZENDO (GTM) | EU FARIA | Por quê (dado) | Prazo |
+| Dimensão | ESTAMOS FAZENDO (GTM) | VERSÃO FINAL | Por quê (dado) | Prazo |
 |---|---|---|---|---|
-| Mix de produto | 40-50% do mês, maioria em card-vitrine | Mesma cota, mas **zero card-vitrine**: produto sempre dentro de rotina/ocasião de uso/pergunta | Cards de produto = 8 piores posts do semestre; fórmula "queridinho das mamães" fez 220 | 🟢 |
-| Formato | SET: 40% carrossel, 23% card, 37% reels | **≥50% reels, ~35% carrossel, ≤15% card** | Reels: +69% likes, +122% comentários vs card | 🟢 |
-| Mascote | Ausente de jul/ago/set | **1 aparição/semana** (trend ou série) + herói do Dia das Crianças | 5 dos 9 tops do semestre têm o mascote (422, 222, 204, 202, 161) | 🟢 |
-| Ganchos | "Hooks?" pendente na aba SET | Gancho obrigatório: falado + na tela nos 2s + 1ª linha da legenda ([biblioteca pronta](03-ganchos.md)) | 70% da decisão de assistir ocorre em 2s; legendas atuais abrem institucional | 🟢 |
-| Dia de postagem hero | Datas caem onde caem | Conteúdo hero em **sexta/sábado** | Sex=101, sáb=96 de média vs 67-69 de qua/dom | 🟢 |
-| Tecnologia | SAV aparece 1x (17/09) | SAV + Palmilha Ultra viram **série mensal da Dra. Be** com demonstração filmável | Bibi martela FisioFlex com estudo; Kidy nomeia tudo | 🟢 |
-| Inclusão | Sem pauta fixa | 1 pauta/mês: criança real + especialista + conquista | Conteúdo orgânico mais viral do semestre (464+270) | 🟢 |
-| TikTok | Fora do plano | Repost dos reels (sem logo no 1º segundo) | Nenhum concorrente ocupa; custo ~zero ([matriz](10-reutilizacao.md)) | 🟢 |
+| Formato | SET: 40% carrossel, 23% card, 37% reels | **≥50% reels**, ~35% carrossel, ≤15% card | Reels: +69% likes, +122% comentários; os 8 piores posts do semestre são cards | 🟢 |
+| Produto 📡 | 40-50% do mix em card-vitrine | Mesma cota, **zero vitrine**: produto dentro de rotina, ocasião de uso e pergunta | Fórmula "queridinho das mamães" = 220 likes vs 62 do card médio; radar: "funcionalidade acima da estética" | 🟢 |
+| **Preço/valor 📡 (novo)** | Liquidação (peso 0,4 em jul!) comunicada como desconto | **Desconto sempre ancorado em durabilidade/custo-por-uso** ("dura a estação toda", "custo por mês de uso"), parcelamento visível, combo irmãos | Radar: 36% das mães só compram o que cabe no bolso; qualidade vence preço por 58×45 — por pouco | 🟢 |
+| Mascote | Ausente de jul/ago/set | **1 aparição/semana** + herói do Dia das Crianças | 5 dos 9 tops do semestre têm o mascote (422, 222, 204, 202, 161) | 🟢 |
+| Ganchos | "Hooks?" pendente na aba SET | Gancho obrigatório: falado + na tela nos 2s + 1ª linha da legenda ([50 prontos](03-ganchos.md)) | 70% da decisão de assistir ocorre em 2s | 🟢 |
+| Dia hero | Cai onde a pauta mandar | Hero em **sexta/sábado** | Sex=101, sáb=96 vs 67-69 qua/dom | 🟢 |
+| Tecnologia 📡 | SAV 1x (17/09), sem selo | **SAV + Palmilha Ultra + selo IBTeC como hero** em série mensal da Dra. Be, com demonstração filmável | Bibi: FisioFlex + PUC-RS; Kidy: Respi-Tec; radar: barefoot/saúde do pé é a tendência mundial mais alinhada ao DNA Klin — ocupar antes das importadas | 🟢 |
+| Inclusão | Sem pauta fixa | 1 pauta/mês: criança real + especialista + conquista | Conteúdo orgânico mais viral do semestre (T21: 464+270) | 🟢 |
+| **Influência 📡 (novo)** | Influenciador M/G (jul) e casal (11/08) | **8-10 nano/micro criadoras-mãe** (via B2Mamy ou similar), brief "primeiro dia de aula"/"brincar livre", UGC cru sem estúdio | Radar: 78% da economia de criadoras é nano/micro; UGC = 22% mais engajamento que vídeo de marca | 🟢 |
+| TikTok 📡 | Fora do plano | Repost dos reels + **estreia com "por que o bico largo importa"** (bastidor de laboratório + IBTeC) | Nenhum concorrente ocupa; ação nº 1 do radar de 13/07 | 🟢 |
 
 ---
 
-## 2. De-Para JULHO — dia a dia (16 dias restantes)
+## 2. De-Para JULHO — dia a dia (16 a 31)
 
-O que já passou (01-14/07): Copa ficou só nos Stories enquanto o reel mascote+Copa de junho fez 422 🔴 · Concurso do niver (13/07) saiu com peso 0,05 🟡 **recuperável — ver linha 17/07**.
+Já passou (01-14/07): Copa só nos Stories 🔴 · concurso do niver com peso 0,05 🟡 → recuperação no dia 17.
 
-| Dia | ESTAMOS FAZENDO (GTM) | EU FARIA | Prazo |
+| Dia | ESTAMOS FAZENDO (GTM) | VERSÃO FINAL | Prazo |
 |---|---|---|---|
-| 15/07 (qua) | Capri — card produto | (provavelmente já postado) — se não: reel "rotina da manhã" com Capri + pergunta na legenda | 🟡 |
-| 16/07 (qui) | Bastidores qualidade c/ Sandra — Educação | **Manter tema**, formato reel com gancho: "43 anos testando o que vai no pé do seu filho" (frame VEJA: transparência = valor) | 🟢 |
-| 17/07 (sex) | Prova social 43 anos — Emocional | **Relançar aqui o concurso do niver como #MeuPrimeiroKlin**: "poste o primeiro Klin da família" (mecânica do post nº 1 do semestre, 487/91 + tática nostalgia da Adidas). Sexta = melhor dia da semana | 🟢 ⭐ |
-| 18/07 (sáb) | Capri — card produto | **Mascote + Copa no feed** (últimos dias da Copa, 19/07; fórmula do 422). Capri desliza para 21/07 | 🟢 ⭐ |
-| 19/07 (dom) | "Você sabia: amizade" — Educação | Manter, formato carrossel salvável ("5 sinais de uma amizade de infância saudável") | 🟢 |
-| 20/07 (seg) | Dia do Amigo — UGC | Manter + mecânica: "marca a mãe do melhor amigo do seu filho" (share barato) | 🟢 |
-| 21/07 (ter) | Hug — card produto | Hug em reel de ocasião de uso (fim de semana no parque) + pergunta | 🟢 |
-| 22/07 (qua) | Primeiros Passos/Baby — Emocional | **Fórmula T21**: primeiros passos de uma criança real com fisioterapeuta (repetir a mecânica do 464/270, com consentimento) | 🟢 ⭐ |
-| 23/07 (qui) | Hug — card produto | Trocar por educativo: R01 "sinais de que o calçado ficou pequeno" ([guião pronto](04-reels.md)) — produto Hug entra como demonstração | 🟢 |
-| 24/07 (sex) | Anatômico × Ortopédico — Educação | **Manter tema, subir a aposta**: reel Dra. Be com demonstração física + gancho de erro ("Seu filho NÃO precisa de tênis ortopédico"). É o confronto direto com a Bibi, em sexta-feira | 🟢 ⭐ |
-| 25/07 (sáb) | Hug — card produto | UGC do concurso #MeuPrimeiroKlin (repost das melhores participações) | 🟢 |
-| 26/07 (dom) | Dia dos Avós — Emocional | Manter card comemorativo, mas gravar TAMBÉM o material do dia 29 | 🟢 |
-| 27/07 (seg) | Importância dos avós — Educação | Manter, carrossel salvável | 🟢 |
-| 28/07 (ter) | Sky — card produto | Sky em reel "calçou sozinho" (autonomia = orgulho materno, fórmula R12) | 🟢 |
-| 29/07 (qua) | Conteúdo emocional Avós | **Fórmula do 416/112**: história real de 3 gerações (avó que calçava a filha de Klin, filha que calça o neto) — não card genérico | 🟢 ⭐ |
-| 30/07 (qui) | Série Atributos + Dra. Be — Educação | Manter + **nomear**: "Palmilha Ultra + SAV: o que tem dentro de um Klin" com teste de flexibilidade filmado | 🟢 |
-| 31/07 (sex) | Sky — card produto | Fechamento do concurso #MeuPrimeiroKlin com anúncio de vencedor (sexta = pico) — Sky entra como cenário | 🟢 |
+| 16/07 (qui) 📡 | Bastidores qualidade Klin (Sandra) | Mesmo tema em reel com gancho **"43 anos testando o que vai no pé do seu filho"** + **selo IBTeC visível** (frame VEJA: transparência = valor) | 🟢 |
+| 17/07 (sex) ⭐📡 | Prova social 43 anos | **Lançar #CresciDeKlin** (fusão do concurso #MeuPrimeiroKlin com o "Cresci de Klin" do radar): poste a foto/história do primeiro Klin da família — mecânica do post nº 1 do semestre (487/91) + nostalgia intergeracional validada mundialmente. Sexta = melhor dia | 🟢 |
+| 18/07 (sáb) ⭐ | Capri — card | **Mascote + Copa no feed** (última janela, fórmula do 422). Capri desliza p/ dia 21 | 🟢 |
+| 19/07 (dom) | "Você sabia: amizade" | Manter, carrossel salvável "5 sinais de uma amizade de infância saudável" | 🟢 |
+| 20/07 (seg) | Dia do Amigo — UGC | Manter + "marca a mãe do melhor amigo do seu filho" | 🟢 |
+| 21/07 (ter) 📡 | Hug — card | Hug em reel de ocasião de uso + pergunta; legenda com **argumento de durabilidade/parcelamento** (Liquidação ancorada em valor) | 🟢 |
+| 22/07 (qua) ⭐ | Primeiros passos — baby | **Fórmula da inclusão**: primeiros passos de criança real com fisioterapeuta (repete o 464+270, com consentimento) | 🟢 |
+| 23/07 (qui) | Hug — card (2º) | Educativo R01 "sinais de que o calçado ficou pequeno" — Hug como demonstração | 🟢 |
+| 24/07 (sex) ⭐📡 | Anatômico × ortopédico | **Reel Dra. Be com demonstração física + selo IBTeC** + gancho de erro ("Seu filho NÃO precisa de tênis ortopédico") — duelo direto com a Bibi, em sexta | 🟢 |
+| 25/07 (sáb) 📡 | Hug — card (3º) | UGC: repost das melhores participações do **#CresciDeKlin** | 🟢 |
+| 26-27/07 | Dia dos Avós + importância | Manter (card + carrossel salvável); gravar já o material do dia 29 | 🟢 |
+| 28/07 (ter) | Sky — card | Sky em reel **"calçou sozinho"** (autonomia = orgulho materno) | 🟢 |
+| 29/07 (qua) ⭐📡 | Emocional avós | **Fórmula do 416/112 + nostalgia do radar**: história real de 3 gerações — a avó que calçava a filha de Klin, a filha que calça o neto. Vira o 1º depoimento da série "Cresci de Klin" | 🟢 |
+| 30/07 (qui) 📡 | Série atributos + Dra. Be | Manter + **nomear**: "Palmilha Ultra + SAV, testado IBTeC — o que tem dentro de um Klin", com teste de flexibilidade filmado | 🟢 |
+| 31/07 (sex) 📡 | Sky — card (2º) | **Fechamento do #CresciDeKlin** com anúncio do vencedor (sexta = pico) — Sky como cenário | 🟢 |
 
-**Saldo julho:** mesmos temas do GTM em 14 dos 17 dias; muda o formato de 6 cards → reels; recupera o concurso perdido; adiciona mascote 1x e inclusão 1x.
+**Saldo julho:** mesmos temas do GTM em 14 de 17 dias; 6 cards viram reels; concurso recuperado com nome melhor; IBTeC entra em 3 peças; mascote 1x; inclusão 1x.
 
 ---
 
 ## 3. De-Para AGOSTO (100% ajustável 🟢)
 
-| Bloco | ESTAMOS FAZENDO (GTM) | EU FARIA |
+| Bloco | ESTAMOS FAZENDO (GTM) | VERSÃO FINAL |
 |---|---|---|
-| Mix do mês | Produto 50% / Educação 15% / Emocional 15% / UGC 20% | **Produto 40% / Educação 25% / UGC 20% / Emocional 15%** — agosto tem lançamento, mas lançamento performa disfarçado de história |
-| 03-08/08 Aquecimento Dia dos Pais | Visita à fábrica (bastidor+pais), Freestyle "estilo pai e filho", "olhar do pai nos primeiros passos" | **Manter tudo** (temas ótimos) + post hero na **sexta 07 ou sábado 08** além do card de domingo 09; formato reel emocional (fórmula 416, agora com pai) |
-| 09/08 (dom) ⭐ Dia dos Pais | Post emocional principal — CARD | Card ok como institucional, mas o **hero é o reel da véspera**; no dia, Stories UGC "poste seu pai calçando seu filho" |
-| 10-23/08 Lançamento PV27 | Teasers + cards Weekend/Walk/Sky + influenciador casal + UGC | Lançamento **inteiro em reels de ocasião de uso** + **1 reel do mascote apresentando a coleção** (nunca foi feito; 6-8x de média) + manter influenciador/UGC |
-| 15/08 Série Dra. Be | Anatômico × ortopédico — formato indefinido | Reel com demonstração + gancho de erro; cross-post TikTok como estreia da marca lá |
-| 17/08 Como medir o pé em casa | Educação | Manter — usar [guião R19 pronto](04-reels.md) (tutorial 30s, ímã de saves) |
-| 22/08 Folclore — "A Klin é do Brasil" | Emocional | **Mascote encontra personagens do folclore** (Saci, Curupira): território cultural sem nenhum concorrente, altamente compartilhável |
-| 28/08 "Memórias: o primeiro Klin" | Emocional | Reaproveitar os UGCs do concurso de julho (#MeuPrimeiroKlin) — o conteúdo se autoalimenta |
-| Parking lot (Dra. Be postura/verão) | Sem data | Agendar: postura em ago, verão em set (antes do calor) |
+| Mix do mês | Produto 50% / Educação 15% / Emocional 15% / UGC 20% | **Produto 40% / Educação 25% / UGC 20% / Emocional 15%** — lançamento performa disfarçado de história |
+| 03-08/08 Aquecimento Dia dos Pais | Fábrica c/ pais, Freestyle pai-filho, "olhar do pai" | Manter tudo + **reel hero na sexta 07 ou sábado 08** (fórmula 416, com pai); domingo 09 fica o card + Stories UGC |
+| 10-23/08 Lançamento PV27 ⭐📡 | Teasers + cards Weekend/Walk/Sky + influenciador casal | Lançamento inteiro em **reels de ocasião de uso** + **mascote apresenta a coleção** + **visuais na paleta verão 26/27** (Rosa Pitaya, Laranja Papaya, Verde Glimmer — dopamine dressing validado BR+mundo; atualizar prompts da [Etapa 7](07-visuais.md) até 05/08) |
+| 11/08 Influenciador 📡 | Casal M/G | **8-10 nano/micro criadoras-mãe**, brief "brincar livre"/"dia a dia real", UGC cru — custa menos que 1 macro e alimenta a série de setembro |
+| 15/08 Série Dra. Be ⭐📡 | Anatômico × ortopédico, formato indefinido | Reel com demonstração + IBTeC + **"por que o bico largo importa"** (ação nº 1 do radar) — e usar como **estreia oficial da Klin no TikTok** |
+| 17/08 Medir o pé | Educação | Guião R19 pronto: tutorial 30s, ímã de saves |
+| 22/08 Folclore | "A Klin é do Brasil" | **Mascote encontra Saci e Curupira** — território cultural sem concorrência |
+| 28/08 Memórias 📡 | "O primeiro Klin do seu filho" | **Episódios "Cresci de Klin"**: depoimentos gravados a partir dos UGCs do concurso de julho — o conteúdo se autoalimenta |
 
 ---
 
 ## 4. De-Para SETEMBRO (100% ajustável 🟢)
 
-| Bloco | ESTAMOS FAZENDO (GTM) | EU FARIA |
+| Bloco | ESTAMOS FAZENDO (GTM) | VERSÃO FINAL |
 |---|---|---|
-| Formato do mês | 12 carrosséis (40%) / 7 cards (23%) / 11 reels (37%) | **15 reels (50%) / 11 carrosséis (37%) / 4 cards (13%)** — converter os 3-4 cards de produto (06, 20, 27, 28/09) em reels/carrossel |
-| 04-13/09 Série mães reais (rotina, sono, telas, irmão) | UGC Reels | **Manter — é a melhor aposta do trimestre** (território "mãe para mãe" que Bibi/Pampili/Kidy não ocupam). Dar nome fixo à série (ex.: "Rotina Real") e vinheta de 1s para reconhecimento |
-| 05/09 Dia do Irmão | Carrossel emocional | Reel emocional (fórmula 416) + caixinha nos Stories "foto dos irmãos de Klin" |
-| 14-16/09 Dia do Cliente | Aquecimento + agradecimento + clientes históricos | Manter a ideia da fábrica (clientes visitam = "um dia de Klin") e transformar em **mini-série UGC de 3 episódios** — é PR orgânico |
-| 17/09 Tecnologia SAV | Carrossel educativo | **Reel demonstrável**: Dra. Be + criança correndo + teste de estabilidade filmado; repetir o argumento dentro da campanha Dia das Crianças |
-| 18-19/09 Lançamento campanha Dia das Crianças | Reels de produto | **Mascote como protagonista da campanha** + produto com "feature filmável" (lógica Kidy Surpresa: o que a criança mostra na escola é o que a mãe filma) |
-| 23/09 (Dia da Menina — data da Pampili) | UGC primavera | Não disputar a data. Manter primavera/jardim e **estudar data proprietária da Klin** (ex.: "Dia do Primeiro Passo") para outro mês |
-| 26/09 Desafio das telas (Geração Ansiosa) | UGC Reels | **Manter e ampliar para série de 2-3 posts** — maior potencial de shares do mês (pauta "menos telas" já validada na conta) + enviar o livro a 3 mães criadoras, não 1 |
-| 29/09 Contagem regressiva Dia das Crianças | Animação do Klin | Manter — é a volta da série animada "Aventuras com Klin" (222/204/161); emendar com episódios semanais em outubro |
+| Formato do mês | 12 carrosséis · 7 cards · 11 reels | **15 reels · 11 carrosséis · 4 cards** — converter os cards de produto (06, 20, 27, 28/09) |
+| 04-13/09 Série mães reais ⭐📡 | UGC reels: rotina, sono, telas, irmão | **Melhor aposta do trimestre — manter e batizar** ("Rotina Real", vinheta de 1s). Radar confirma: maternidade real + nano/micro é a tendência nº 4 BR. Elenco: as criadoras recrutadas em agosto. Incluir 1 episódio de inclusão |
+| 05/09 Dia do Irmão | Carrossel emocional | Reel emocional (fórmula 416) + caixinha "foto dos irmãos de Klin" |
+| 14-16/09 Dia do Cliente | Aquecimento + agradecimento + históricos | Clientes visitam a fábrica ("um dia de Klin") como **mini-série UGC de 3 episódios** |
+| 17/09 Tecnologia SAV 📡 | Carrossel educativo | **Reel demonstrável**: Dra. Be + criança correndo + teste de estabilidade + **selo IBTeC**; repetir o argumento na campanha das Crianças |
+| 18-19/09 Campanha Dia das Crianças ⭐📡 | Reels de produto | **Mascote protagonista** + produto com "feature filmável" — candidato concreto do radar: **kit de charms/pins Klin** (mercado global US$ 0,4 bi, 2,3 bi de views; 64% dos pais valorizam personalização). Levar ao time de produto como piloto |
+| 23/09 (Dia da Menina — Pampili) | UGC primavera | Não disputar a data; manter primavera/jardim e estudar **data proprietária** ("Dia do Primeiro Passo") |
+| 26/09 Desafio das telas 📡 | 1 post UGC ("A Geração Ansiosa") | **Série de 2-3 posts com 3 mães criadoras** — radar: "no phone summer" +340%, screen-free +200%; maior potencial de shares do mês |
+| 29/09 Animação | Contagem regressiva | Manter — volta oficial da série "Aventuras com Klin" (222/204/161); episódios semanais em outubro |
 
 ---
 
-## 5. O que já passou e como recuperar
+## 5. O que já passou — e como recuperar
 
 | Perdido | Recuperação |
 |---|---|
-| 🔴 Copa no feed (jun-jul) — só foi Stories no plano | Últimos jogos até 19/07: mascote+Copa no feed dia 18/07 |
-| 🟡 Concurso niver 43 anos (13/07, peso 0,05) | Relançar 17/07 como #MeuPrimeiroKlin com push real; fechamento 31/07; UGC vira conteúdo de agosto |
-| 🟡 Série "Aventuras com Klin" (parou em mai) | Volta oficial em 29/09 (contagem regressiva) e vira arma do Dia das Crianças em outubro |
+| 🔴 Copa no feed (jun-jul, só Stories) | Última janela: mascote + Copa no feed dia 18/07 |
+| 🟡 Concurso niver (13/07, peso 0,05) | Relançar 17/07 como **#CresciDeKlin**, fechamento 31/07; UGC vira série de agosto |
+| 🟡 Série "Aventuras com Klin" (parou em mai) | Volta em 29/09 e vira arma do Dia das Crianças em outubro |
 
 ---
 
-## 6. Resumo executivo
+## 6. Resumo executivo — as 6 decisões com deadline nesta semana
 
-**Ainda há tempo — e sobra.** O plano GTM está certo nos temas (datas, Dra. Be, UGC, mães reais) e desalinhado dos dados na execução (formato, ganchos, mascote, peso do concurso). O de-para acima muda ~30% das peças de formato, ~10% de tema, e 0% da estrutura do plano. As 5 mudanças com deadline nesta semana:
+1. **Sex 17/07** — lançar **#CresciDeKlin** (concurso + nostalgia intergeracional: mecânica nº 1 do semestre + tendência mundial nº 4)
+2. **Sáb 18/07** — mascote + Copa no feed (última janela)
+3. **Qua 22/07** — primeiros passos com fórmula de inclusão (maior viral orgânico)
+4. **Sex 24/07** — Dra. Be em reel com demonstração + **selo IBTeC** (duelo com a Bibi)
+5. **Liquidação inteira (até 05/08)** — desconto sempre ancorado em durabilidade/custo-por-uso, nunca só preço
+6. **A partir de amanhã** — gancho na 1ª linha de tudo + fim dos cards-vitrine
 
-1. **17/07** — relançar o concurso como #MeuPrimeiroKlin (mecânica nº 1 do semestre)
-2. **18/07** — mascote + Copa no feed (última janela da Copa)
-3. **22/07** — primeiros passos com fórmula de inclusão (maior viral orgânico)
-4. **24/07** — Dra. Be em reel com gancho (não card): o duelo com a Bibi
-5. **Todos os posts a partir de amanhã** — gancho na 1ª linha + fim dos cards-vitrine
+**Fora do social (levar às áreas):** paleta verão 26/27 nos visuais do PV27 (mkt, até 05/08) · kit charms/pins para Dia das Crianças (produto) · recrutamento de 8-10 nano/micro mães (influência, ainda em julho).
+
+> **Meta do trimestre:** voltar à média ≥100 likes/post e ≥7 comentários/post até 30/09 (patamar de abril), com Reels ≥140 — mensurável pelos mesmos endpoints da API deste estudo.
