@@ -25,11 +25,12 @@ Sistema de criação de conteúdo para o nicho **calçados infantis / maternidad
 | 13 | [13-concorrencia-premium.md](13-concorrencia-premium.md) | Benchmarks A/B: VEJA Kids, Adidas Kids e Tip Toey Joey (com fontes) |
 | 14 | [14-de-para-ajustes.md](14-de-para-ajustes.md) | De-Para: plano GTM × recomendações, dia a dia, com semáforo de prazo |
 | 15 | [15-radar-tendencias-avaliacao.md](15-radar-tendencias-avaliacao.md) | Radar de Tendências (10 e 13/07) × proposta: convergências e 7 ajustes |
-| 16 | [16-aderencia.md](16-aderencia.md) | **Aderência: recomendado × praticado** — 34% global, medido nos 229 posts |
-| 17 | [17-calendario-agosto.md](17-calendario-agosto.md) | **Calendário de agosto dia a dia** — 31/31 temas mantidos, formato proposto |
-| 18 | [18-pecas-agosto.md](18-pecas-agosto.md) | **Formato das peças de agosto** — frame, roteiro, texto na tela e legenda |
-| 19 | [19-calendario-outubro.md](19-calendario-outubro.md) | **Outubro + cadência dos 75 dias** — todo dia 15, o mês corrente + 3 |
-| 20 | [20-RETOMAR-AQUI.md](20-RETOMAR-AQUI.md) | ⚠️ **LEIA PRIMEIRO** — estado da parada de 15/jul e o que falta |
+| 16 | [16-aderencia.md](16-aderencia.md) | Aderência: recomendado × praticado — 34% global, medido nos 229 posts (jul/26) |
+| 17 | [17-calendario-agosto.md](17-calendario-agosto.md) | Calendário de agosto dia a dia — 31/31 temas mantidos, formato proposto |
+| 18 | [18-pecas-agosto.md](18-pecas-agosto.md) | Formato das peças de agosto — frame, roteiro, texto na tela e legenda |
+| 19 | [19-calendario-outubro.md](19-calendario-outubro.md) | Outubro + cadência dos 75 dias — todo dia 15, o mês corrente + 3 |
+| 20 | [20-RETOMAR-AQUI.md](20-RETOMAR-AQUI.md) | Estado da parada de 15/jul — ✅ resolvido no módulo 21 (15/nov/26) |
+| 21 | [21-fevereiro.md](21-fevereiro.md) | **Fevereiro/2027 — retomada do ciclo**: pipeline parado 3 meses (achado), primeira comparação real de aderência (34%→50%), padrão de dia da semana revalidado, calendário e peças do mês |
 
 ## Os 7 pilares do sistema
 

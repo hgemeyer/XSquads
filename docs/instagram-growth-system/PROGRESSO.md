@@ -2,13 +2,13 @@
 
 > Log oficial do projeto. Toda sessão de trabalho deve atualizar este arquivo e fazer push (ver skill `klin-growth` e Routine de push automático).
 
-## Estado atual (15/jul/2026)
+## Estado atual (15/nov/2026)
 
-> ⚠️ **PARADO NO MEIO DE UMA TAREFA (15/jul, fim do dia).** Leia **[20-RETOMAR-AQUI.md](20-RETOMAR-AQUI.md)** antes de qualquer coisa. Resumo: o link `1f4d52f4…` está com outubro, mas foi compartilhado como agosto; e faltam publicar os 3 calendários (ago/set/out) com gancho e copy — o gerador com os **92 dias já escritos** está em `scripts/gen_calendarios.py`.
+> ✅ **Retomado.** As 3 telas de fevereiro/2027 estão publicadas. Achado crítico desta rodada: a rotina ficou 3 meses (ago/set/out) sem deixar rastro — ver [21-fevereiro.md](21-fevereiro.md) §Achado nº1. Pendência de design ainda aberta: política de URL (3 fixas vs. 1 por mês) — ver §Achado nº4 do mesmo módulo.
 
-**Fase:** Sistema completo + estudo 360º + de-para FINAL + **medição de aderência (34%)** prontos para discussão com o time.
+**Fase:** Primeira comparação real de aderência entre rodadas (34% jul/26 → 50% nov/26) + calendário e peças de fevereiro/2027 publicados.
 **Branch de trabalho:** `claude/instagram-growth-ai-system-0tbqk7` (ainda não mesclado ao `main` — abrir PR quando o time aprovar).
-**Artifact visual (de-para):** https://claude.ai/code/artifact/dec7f5e9-fb08-45ba-b7fe-c215bed1583e
+**Artifacts:** [De-Para GTM + aderência](https://claude.ai/code/artifact/dec7f5e9-fb08-45ba-b7fe-c215bed1583e) · [Calendário de Fevereiro](https://claude.ai/code/artifact/1f4d52f4-1e02-4a9d-aafe-810bbd033b99) · [Peças de Fevereiro](https://claude.ai/code/artifact/76c5225b-5260-4b10-95dc-c9bb6163fdf5)
 
 ## Linha do tempo
 
@@ -79,36 +79,52 @@
 42. **Gerador `scripts/gen_calendarios.py` criado com os 92 dias escritos** (ago 31 + set 30 + out 31), cada um com formato, tipo, guião, proposta, **gancho** e **copy**. Mais `scripts/_base.css` (tokens, chips, `.hk`, `.cp`, `.nav`). **Não foi executado nem publicado** — é o ponto exato da retomada.
 43. **Estado inconsistente registrado em [20-RETOMAR-AQUI.md](20-RETOMAR-AQUI.md)**, com o passo a passo do que falta.
 
-## Decisões em aberto (aguardando o time)
+### 15/nov/2026 — Sessão 9 (retomada: fevereiro/2027, primeira comparação real de aderência)
 
-- [ ] Aprovar o de-para FINAL (reunião com Righi/mkt) — deadline crítico: **17/07** (#CresciDeKlin)
+44. **Módulo 21 criado — [21-fevereiro.md](21-fevereiro.md)**: plano completo de fevereiro/2027, rodado com 75 dias de antecedência (mês corrente nov/26 + 3).
+45. **Achado crítico: pipeline parado 3 meses em silêncio.** Nenhuma das rodadas de 15/ago, 15/set, 15/out deixou rastro no PROGRESSO. Hipótese confirmada nesta sessão: a sessão de nuvem não veio com o repositório vinculado ao git/gh local — só foi possível operar via tools `GITHUB_*` do Composio, achando o repo certo (`hgemeyer/XSquads`) por tentativa entre 48 repositórios da conta. Armadilha 27 registrada.
+46. **Primeira comparação real de aderência entre rodadas: 34% (jul/26) → 50% (nov/26, recorte de 6 meses, 194 posts).** Maiores saltos: Tecnologia nomeada (14%→57%) e Influência nano/micro (0%→100%), ambos orgânicos, sem calendário nosso publicado no intervalo. Maiores quedas: Gancho na 1ª linha (13%→9%) e Hero em sex/sáb (45%→30%). Mascote e Preço seguem travados em 27% e 0%.
+47. **Tese "aderência→engajamento" segue na mesma direção (79,1→101,0 likes médios) mas não pode ser lida como causa** — não houve calendário executado no intervalo. Fevereiro é a primeira rodada que testa isso com dado real de execução.
+48. **Achado: o padrão de dia da semana mudou.** Quarta deixou de ser fraca (66→111,9 likes); quinta é o novo pior dia (73,5). `dados-conta.md` revalidado por inteiro. Armadilha 28 registrada.
+49. **Erro de URL repetido uma 3ª vez, parcialmente corrigido.** Republiquei fevereiro por cima das URLs antigas de calendário (tinha outubro) e peças (tinha agosto), repetindo o erro já documentado na armadilha 21. Ao tentar corrigir criando 2 artifacts novos (política correta, decidida pelo Allan), o classificador de modo automático bloqueou a ação como destrutiva/não solicitada numa sessão sem humano presente. Mantidas as 3 URLs fixas; conteúdo de ago/out resumido e preservado dentro das páginas. Armadilha 29 registrada — decisão de política pendente com o Allan.
+50. **Pesquisa de mercado:** Pampili fez rebranding com nostalgia (collab Ursinhos Carinhosos); Bibi reposicionou com "Bibi Educa"; Kidy sem dado público de Instagram encontrado — lacuna de inteligência registrada.
+51. **GTM de fevereiro:** não existe aba dia a dia própria (a mais recente é JAN-2027) — usada a linha de fevereiro da aba "Estratégia NACIONAL - GTM" (tema "Folia Klin", foco Papete Light).
+52. **Calendário e peças de fevereiro montados** reaproveitando roteiros prontos dos módulos 03-08 (R06, R12, R17, R18, R24, R26, R29, C04, C09, C12, C14, C18, C19) — só o hero de pré-lançamento de Carnaval é peça nova.
+53. **`dados-conta.md` e `armadilhas.md` atualizados** com o baseline novo e as armadilhas 27-29.
+
+## Decisões em aberto (aguardando o time/Allan)
+
+- [ ] Aprovar o de-para FINAL (reunião com Righi/mkt) — deadline original **17/07** (#CresciDeKlin), já vencido, revalidar relevância.
 - [ ] Validar placeholders de depoimentos/dados internos nos Stories (módulo 6)
 - [ ] Revisão técnica dos conteúdos de saúde (Dra. Be / pediatra)
-- [ ] Levar às áreas: paleta PV27 (mkt), kit charms/pins (produto), recrutamento nano/micro (influência)
-- [ ] **Antes de 1º/08 (módulo 17):** recrutar 8-10 criadoras-mãe (trava os dias 11/13/18/20/24/30 e a série de setembro) · agendar Dra. Be + laboratório para 15/08 · fechar paleta verão 26/27 antes do teaser de 05/08
-- [ ] Propor coluna **Formato** na planilha GTM (hoje a aba Ago só define tema e tipo)
+- [ ] Propor coluna **Formato** na planilha GTM (hoje só define tema e tipo)
 - [ ] Abrir PR para `main` quando aprovado
 - [ ] Automação de publicação (Nível 3): Routine diária de post via API + hospedagem de assets em URL pública
+- [ ] **Criar a aba FEV-2027 na planilha GTM** (até 20/01/27) — hoje só existe até JAN-2027
+- [ ] **Confirmar se ago/set/out foram executados pelo time fora do nosso radar** (até 25/11/26)
+- [ ] **Validar se "Influência 100%"** (10 posts com @menção, medição de nov/26) é programa estruturado de criadoras ou tags orgânicas (até 05/12/26)
+- [ ] **Aprovar teste de realocação de verba paga** do concurso "Passos da Sorte" para mascote/UGC (até 20/01/27)
+- [ ] **Confirmar a vinculação do repositório** na configuração do trigger agendado de nuvem (antes de 15/03/27 — ver módulo 21 §Achado nº1)
+- [ ] **Decidir a política de URL definitiva** para a rotina automática: 3 fixas (robusto, sem arquivo completo por mês) vs. 1 nova por mês (decisão anterior do Allan, mas parece não executável sem humano presente — ver módulo 21 §Achado nº4)
 
-## Métricas-alvo do trimestre
+## Métricas-alvo do trimestre (desatualizadas — revisar no próximo ciclo)
 
-| Métrica | Base (jul) | Meta (30/set) |
-|---|---|---|
-| Likes médios/post | 62 | ≥100 |
-| Comentários médios/post | 2,6 | ≥7 |
-| Likes médios/Reel | 80 | ≥140 |
-| Fonte de medição | API Instagram via Composio (mesmos endpoints do módulo 11) | idem |
+| Métrica | Base (jul/26) | Atual (nov/26) | Meta (30/set/26, vencida) |
+|---|---|---|---|
+| Likes médios/post | 79,1 | ~101,0 | ≥100 |
+| Comentários médios/post | — | — | ≥7 |
+| Likes médios/Reel | 105,9 | 146,7 | ≥140 |
+| Fonte de medição | API Instagram via Composio | idem | idem |
 
 ## Como continuar o trabalho (qualquer sessão nova)
 
-1. `git checkout claude/instagram-growth-ai-system-0tbqk7 && git pull`
-2. Ler este arquivo + [README.md](README.md) (índice dos 15 módulos)
-3. Usar o skill **`klin-growth`** (carrega automaticamente neste repo) para os fluxos operacionais
-4. Ao final de QUALQUER avanço: atualizar este arquivo, commit convencional e push no branch
+1. Ler este arquivo + [README.md](README.md) (índice dos 21 módulos) via a conexão GitHub disponível (Composio `GITHUB_*` se o git/gh local não tiver o repositório vinculado — ver módulo 21 §Achado nº1)
+2. Usar o skill **`klin-growth`** (carrega automaticamente neste repo) para os fluxos operacionais
+3. Ao final de QUALQUER avanço: atualizar este arquivo, commit convencional e push no branch — **confirmar no remoto antes de dizer que subiu**
 
 ## Como pedir o plano de um mês (contrato da skill, desde 15/07)
 
-Basta dizer o mês — **"roda o growth de setembro"**. A skill lê o repo, puxa a conta pela API,
+Basta dizer o mês — **"roda o growth de fevereiro"**. A skill lê o repo, puxa a conta pela API,
 mede a aderência (12 eixos), lê a aba do mês na planilha GTM, consome o Radar mais recente e a
 concorrência, e entrega **3 artifacts encadeados**:
 
